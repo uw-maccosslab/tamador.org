@@ -171,6 +171,10 @@ def update_publications_file(publications):
             header_parts = content.split('\n---\n', 2)
             if len(header_parts) >= 2:
                 header_content = header_parts[0] + '\n---\n' + header_parts[1].split('\n<ul')[0]
+                # Remove any existing "Last updated" lines to prevent duplicates
+                lines = header_content.split('\n')
+                lines = [line for line in lines if not line.strip().startswith('*Last updated:')]
+                header_content = '\n'.join(lines).rstrip() + '\n'
             else:
                 header_content = create_default_header()
         else:
@@ -183,7 +187,6 @@ def update_publications_file(publications):
     total_pubs = sum(len(pubs) for pubs in pubs_by_year.values())
 
     pubs_section = f"""
-
 *Last updated: {current_date} — {total_pubs} publications*
 
 ---
