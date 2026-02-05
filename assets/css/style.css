@@ -56,7 +56,7 @@ body {
 }
 
 .site-logo {
-  height: 60px;
+  height: 80px;
   width: auto;
 }
 
@@ -406,6 +406,15 @@ a:hover {
   padding: 3px 10px;
   border-radius: 4px;
   margin-right: 8px;
+}
+
+/* Publication metrics chart */
+img[alt="Publications per Year"] {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
 }
 
 /* Datasets page */

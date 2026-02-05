@@ -276,7 +276,7 @@ def generate_publications_plot(publications):
         return False
 
     # Create the plot
-    fig, ax = plt.subplots(figsize=(10, 5))
+    fig, ax = plt.subplots(figsize=(8, 4))
 
     years = sorted(year_counts.keys())
     counts = [year_counts[y] for y in years]
