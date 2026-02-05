@@ -11,6 +11,8 @@ Grant numbers:
 - U01 DK137113 (Pacific Northwest National Laboratories)
 - U01 DK124020 (Pacific Northwest National Laboratories)
 - U01 DK124019 (Cedars-Sinai Medical Center)
+
+Additionally includes specific PMIDs that may not be found by grant number search.
 """
 
 import requests
@@ -28,6 +30,14 @@ GRANT_NUMBERS = [
     'U01 DK137113',
     'U01 DK124020',
     'U01 DK124019'
+]
+
+# Additional PMIDs to include (publications that may not have grant numbers indexed)
+ADDITIONAL_PMIDS = [
+    '40802520',
+    '40093566',
+    '40739343',
+    '38109936'
 ]
 
 # Build PubMed search query for grant numbers
@@ -337,7 +347,18 @@ def main():
 
     # Search PubMed
     pmids = search_pubmed(PUBMED_SEARCH_TERM, MAX_RESULTS)
-    print(f"Found {len(pmids)} publications")
+    print(f"Found {len(pmids)} publications from grant search")
+
+    # Add additional PMIDs (avoid duplicates)
+    pmids_set = set(pmids)
+    for pmid in ADDITIONAL_PMIDS:
+        pmids_set.add(pmid)
+
+    pmids = list(pmids_set)
+
+    if ADDITIONAL_PMIDS:
+        print(f"Added {len(ADDITIONAL_PMIDS)} additional PMIDs")
+    print(f"Total: {len(pmids)} publications")
 
     if not pmids:
         print("No publications found")
