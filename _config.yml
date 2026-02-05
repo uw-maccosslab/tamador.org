@@ -1,0 +1,41 @@
+title: TaMADOR
+description: >-
+  Targeted Mass Spectrometry Assays for Diabetes and Obesity Research - 
+  A multi-institutional consortium developing and disseminating quantitative 
+  protein assays for clinical research.
+baseurl: ""
+url: "https://tamador.org"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - .claude/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Social/Contact
+github_username: uw-maccosslab
