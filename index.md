@@ -6,10 +6,6 @@ title: TaMADOR - Targeted Mass Spectrometry Assays for Diabetes and Obesity Rese
 <div class="hero">
   <h1>Welcome to TaMADOR</h1>
   <p>Two NIDDK programs, one focused on Type 1 Diabetes and one focused on Obesity, funded research groups with the goal of developing and disseminating targeted mass spectrometry assays for the diagnosis and monitoring of Type 1 Diabetes and Obesity. While the funding sources are separate, we felt there were obvious synergies in these efforts and formed TaMADOR with the goal of leveraging each other's capabilities and strengths.</p>
-  <div class="hero-actions">
-    <a href="https://panoramaweb.org/TAMADOR/Internal/project-begin.view" class="btn-primary">Member Login</a>
-    <a href="{{ '/publications' | relative_url }}" class="btn-secondary">View Publications</a>
-  </div>
 </div>
 
 <div class="rfa-links">

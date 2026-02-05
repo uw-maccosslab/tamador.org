@@ -12,6 +12,8 @@ The TaMADOR consortium makes data publicly available through Panorama Public to 
 
 ## Panorama Public Datasets
 
+**Coming Soon:** TaMADOR consortium datasets will be made publicly available through Panorama Public as assays are validated and published. Check back for updates.
+
 <div class="dataset-card">
   <h3>TaMADOR Main Repository</h3>
   <p>Central repository for TaMADOR project data, including assay development, validation, and interlaboratory comparison studies.</p>
