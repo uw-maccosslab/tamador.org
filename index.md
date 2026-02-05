@@ -21,12 +21,12 @@ title: TaMADOR - Targeted Mass Spectrometry Assays for Diabetes and Obesity Rese
   <h2>Type 1 Diabetes Assays</h2>
   <div class="groups-grid">
     <div class="group-card">
-      <h3><a href="https://panoramaweb.org/UW%20Medicine%20-%20NIDDK%20U01%20Diabetes%20Assays/project-begin.view">University of Washington</a></h3>
+      <h3><a href="https://panoramaweb.org/TAMADOR/UW%20Medicine%20-%20NIDDK%20U01%20Diabetes%20Assays/project-begin.view">University of Washington</a></h3>
       <p>Quantifying Proteins in Plasma to Democratize Personalized Medicine for Patients with Type 1 Diabetes</p>
       <p><strong>PIs:</strong> Andrew Hoofnagle, Michael MacCoss</p>
     </div>
     <div class="group-card">
-      <h3><a href="https://panoramaweb.org/TAMADOR/project-begin.view">University of Washington & PNNL</a></h3>
+      <h3><a href="https://panoramaweb.org/TAMADOR/project-begin.view">PNNL & University at Buffalo</a></h3>
       <p>Robust Mass Spectrometric Protein/Peptide Assays for Type 1 Diabetes Clinical Applications</p>
       <p><strong>PIs:</strong> Jun Qu, Wei-Jun Qian</p>
     </div>
@@ -37,12 +37,12 @@ title: TaMADOR - Targeted Mass Spectrometry Assays for Diabetes and Obesity Rese
   <h2>Obesity Assays</h2>
   <div class="groups-grid">
     <div class="group-card">
-      <h3><a href="https://panoramaweb.org/Cedars-Sinai%20Group/project-begin.view">Cedars-Sinai Medical Center</a></h3>
+      <h3><a href="https://panoramaweb.org/TAMADOR/Cedars-Sinai%20Group/project-begin.view">Cedars-Sinai Medical Center</a></h3>
       <p>Design and Validation of Easy-to-Adopt Mass Spectrometry Assays of Importance to Obesity</p>
       <p><strong>PI:</strong> Jennifer Van Eyk</p>
     </div>
     <div class="group-card">
-      <h3><a href="https://panoramaweb.org/PNNL%20Group/project-begin.view">Pacific Northwest National Laboratory</a></h3>
+      <h3><a href="https://panoramaweb.org/TAMADOR/PNNL%20Group/project-begin.view">Pacific Northwest National Laboratory</a></h3>
       <p>Multiplex Mass Spectrometric Protein Assays for Precise Monitoring of the Pathophysiology of Obesity</p>
       <p><strong>PI:</strong> Wei-Jun Qian</p>
     </div>
