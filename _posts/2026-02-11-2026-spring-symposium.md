@@ -19,6 +19,6 @@ Topics include:
 - Cross-laboratory validation of multiplexed LC-MS/MS assays
 - Panel discussion on C-peptide harmonization, clinical utility, and reimbursement
 
-[View the full agenda](/spring-2026-symposium/)
+**[View the full agenda](/spring-2026-symposium/)**
 
-[Register for the symposium](https://diabetesmetabseminars.com/)
+**[Register for the symposium](https://diabetesmetabseminars.com/)**
