@@ -12,7 +12,13 @@ The TaMADOR consortium holds regular meetings and symposia to share progress, di
 
 ## Upcoming Meetings
 
-*Check back for announcements about future meetings.*
+<div class="meeting-item">
+  <span class="meeting-date">May 14, 2026</span>
+  <h3>2026 TaMADOR Spring Symposium</h3>
+  <p class="meeting-location">UW Medicine at South Lake Union, Brotman Auditorium (D Bldg), Seattle, WA</p>
+  <p>Targeted Mass Spectrometry Assays for Diabetes and Obesity Research symposium featuring presentations on proteomics, biomarker validation, proinsulin assays, and clinical applications in type 1 diabetes.</p>
+  <p><a href="/spring-2026-symposium/">View Agenda</a> | <a href="https://diabetesmetabseminars.com/">Register</a></p>
+</div>
 
 ---
 

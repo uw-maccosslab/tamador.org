@@ -550,6 +550,32 @@ th {
   color: var(--dark-blue);
 }
 
+/* Symposium agenda table */
+.symposium-agenda {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.symposium-agenda td {
+  padding: 12px 15px;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: top;
+}
+
+.symposium-agenda .time-col {
+  white-space: nowrap;
+  width: 140px;
+  font-weight: 600;
+  color: var(--text-light);
+}
+
+.symposium-agenda .break-row td {
+  background-color: var(--background-alt);
+  font-style: italic;
+  color: var(--text-light);
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .groups-grid {
