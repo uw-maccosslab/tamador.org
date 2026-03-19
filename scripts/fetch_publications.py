@@ -221,9 +221,9 @@ def update_publications_file(publications):
 
             # Links
             pubs_section += '  <div class="publication-links">\n'
-            pubs_section += f'    <a href="https://pubmed.ncbi.nlm.nih.gov/{pub["pmid"]}/">PubMed</a>\n'
+            pubs_section += f'    <a href="https://pubmed.ncbi.nlm.nih.gov/{pub["pmid"]}/"><span class="visually-hidden">{pub["title"]}: </span>PubMed</a>\n'
             if pub['doi']:
-                pubs_section += f'    <a href="https://doi.org/{pub["doi"]}">DOI</a>\n'
+                pubs_section += f'    <a href="https://doi.org/{pub["doi"]}"><span class="visually-hidden">{pub["title"]}: </span>DOI</a>\n'
             pubs_section += '  </div>\n'
             pubs_section += '</li>\n\n'
 

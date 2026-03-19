@@ -8,7 +8,7 @@
   --accent-red: #c53030;
   --accent-green: #38a169;
   --text-dark: #2d3748;
-  --text-light: #718096;
+  --text-light: #68768b;
   --background: #ffffff;
   --background-alt: #f7fafc;
   --border-color: #e2e8f0;
@@ -574,6 +574,16 @@ th {
   background-color: var(--background-alt);
   font-style: italic;
   color: var(--text-light);
+}
+
+.visually-hidden {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 /* Responsive */

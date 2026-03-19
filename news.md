@@ -16,7 +16,7 @@ permalink: /news/
   <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
   <div class="news-date">{{ post.date | date: "%B %-d, %Y" }}</div>
   <p class="news-excerpt">{{ post.excerpt | strip_html }}</p>
-  <p><a href="{{ post.url | relative_url }}">Read more &rarr;</a></p>
+  <p><a href="{{ post.url | relative_url }}">Read more &rarr; <span class="visually-hidden">{{ post.title }}</span></a></p>
 </li>
 {% endfor %}
 </ul>
