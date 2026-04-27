@@ -16,7 +16,7 @@ Publications from the TaMADOR consortium supported by:
 
 ![Publications per Year]({{ '/assets/images/publication-metrics.png' | relative_url }})
 
-*Last updated: April 10, 2026 — 60 publications*
+*Last updated: April 26, 2026 — 60 publications*
 
 ---
 
@@ -33,142 +33,12 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">The current status of serum insulin measurements and the need for standardization</div>
-  <div class="publication-authors">Rohlfing C, Petroski G, Hatten-Beck M, Hanson S, Hoofnagle AN, Little RR, Kabytaev K</div>
-  <div class="publication-journal">Clinical chemistry and laboratory medicine, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40802520/"><span class="visually-hidden">The current status of serum insulin measurements and the need for standardization: </span>PubMed</a>
-    <a href="https://doi.org/10.1515/cclm-2025-0552"><span class="visually-hidden">The current status of serum insulin measurements and the need for standardization: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists</div>
-  <div class="publication-authors">Hsu C, Shulman N, Stewart HI, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc NE, MacLean BX, Remes PM, Canterbury JD, Makarov AA, Hock C, Zabrouskov V, Wu CC, MacCoss MJ</div>
-  <div class="publication-journal">Journal of proteome research, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/41122818/"><span class="visually-hidden">Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.5c00593"><span class="visually-hidden">Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
   <div class="publication-title">Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome</div>
   <div class="publication-authors">Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthelezi S, Stoychev S, Jordaan J, Merrihew G, Huang E, Parker ED, Riffle M, Hoofnagle AN, Noble WS, Poston KL, Montine TJ, MacCoss MJ</div>
   <div class="publication-journal">Nature communications, 2025</div>
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/40595564/"><span class="visually-hidden">Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome: </span>PubMed</a>
     <a href="https://doi.org/10.1038/s41467-025-60595-7"><span class="visually-hidden">Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Molecular Phenotyping With Proteomics</div>
-  <div class="publication-authors">Schweppe DK, Beliveau BJ, Hoofnagle AN</div>
-  <div class="publication-journal">JAMA, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/39883454/"><span class="visually-hidden">Molecular Phenotyping With Proteomics: </span>PubMed</a>
-    <a href="https://doi.org/10.1001/jama.2024.28089"><span class="visually-hidden">Molecular Phenotyping With Proteomics: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists</div>
-  <div class="publication-authors">Hsu C, Shulman N, Stewart H, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc E, MacLean BX, Remes P, Canterbury JD, Makarov A, Hock C, Zabrouskov V, Wu CC, MacCoss MJ</div>
-  <div class="publication-journal">bioRxiv : the preprint server for biology, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40501761/"><span class="visually-hidden">Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2025.05.30.657132"><span class="visually-hidden">Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Post-Translationally Modified Proteoforms as Biomarkers: From Discovery to Clinical Use</div>
-  <div class="publication-authors">Luo RY, Yeung PSW, Mann MW, Zhang L, Yang YK, Hoofnagle AN</div>
-  <div class="publication-journal">Clinical chemistry, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40850932/"><span class="visually-hidden">Post-Translationally Modified Proteoforms as Biomarkers: From Discovery to Clinical Use: </span>PubMed</a>
-    <a href="https://doi.org/10.1093/clinchem/hvaf094"><span class="visually-hidden">Post-Translationally Modified Proteoforms as Biomarkers: From Discovery to Clinical Use: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">An Antibody Cocktail-Based Immunoaffinity-LC-MS Method Enabled Ultra-Sensitive and Robust Quantification of Circulating Proinsulin Proteoforms and C-Peptide</div>
-  <div class="publication-authors">Shen Q, Cao W, Zhang M, Lin TT, Monaco GSF, Nierves L, Shi T, Boeser C, Peterman S, Evans-Molina C, Sims EK, Qian WJ, Qu J</div>
-  <div class="publication-journal">Analytical chemistry, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40875001/"><span class="visually-hidden">An Antibody Cocktail-Based Immunoaffinity-LC-MS Method Enabled Ultra-Sensitive and Robust Quantification of Circulating Proinsulin Proteoforms and C-Peptide: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.analchem.5c03256"><span class="visually-hidden">An Antibody Cocktail-Based Immunoaffinity-LC-MS Method Enabled Ultra-Sensitive and Robust Quantification of Circulating Proinsulin Proteoforms and C-Peptide: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Characterization of cytokine treatment on human pancreatic islets by top-down proteomics</div>
-  <div class="publication-authors">Ives AN, Sagendorf T, Nierves L, Lin TT, Dirice E, Kulkarni RN, Paša-Tolić L, Qian WJ, Fulcher JM</div>
-  <div class="publication-journal">bioRxiv : the preprint server for biology, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40463221/"><span class="visually-hidden">Characterization of cytokine treatment on human pancreatic islets by top-down proteomics: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2025.05.12.653562"><span class="visually-hidden">Characterization of cytokine treatment on human pancreatic islets by top-down proteomics: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer</div>
-  <div class="publication-authors">Plubell DL, Huang E, Spencer SE, Poston KL, Montine TJ, MacCoss MJ</div>
-  <div class="publication-journal">Journal of proteome research, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40328514/"><span class="visually-hidden">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.5c00016"><span class="visually-hidden">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Characterization of Cytokine Treatment on Human Pancreatic Islets by Top-Down Proteomics</div>
-  <div class="publication-authors">Ives AN, Sagendorf TJ, Nierves L, Lin TT, Dirice E, Kulkarni RN, Paša-Tolić L, Qian WJ, Fulcher JM</div>
-  <div class="publication-journal">Proteomics, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40977091/"><span class="visually-hidden">Characterization of Cytokine Treatment on Human Pancreatic Islets by Top-Down Proteomics: </span>PubMed</a>
-    <a href="https://doi.org/10.1002/pmic.70044"><span class="visually-hidden">Characterization of Cytokine Treatment on Human Pancreatic Islets by Top-Down Proteomics: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Single-Islet Proteomics Maps Pseudo-Temporal Islet Immune Responses and Dysfunction in Stage 1 Type 1 Diabetes</div>
-  <div class="publication-authors">Kelly S, Sarkar S, Williams SM, Fu AD, Butterworth EA, Sagendorf TJ, Nierves LA, Kwon Y, Li X, Petyuk VA, Chen J, Nakayasu ES, Atkinson MA, Kulkarni RN, Mathews CE, Zhu Y, Campbell-Thompson M, Qian WJ</div>
-  <div class="publication-journal">bioRxiv : the preprint server for biology, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/41292817/"><span class="visually-hidden">Single-Islet Proteomics Maps Pseudo-Temporal Islet Immune Responses and Dysfunction in Stage 1 Type 1 Diabetes: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2025.11.10.687674"><span class="visually-hidden">Single-Islet Proteomics Maps Pseudo-Temporal Islet Immune Responses and Dysfunction in Stage 1 Type 1 Diabetes: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">MRM-based LC-MS method for accurate C-peptide quantitation</div>
-  <div class="publication-authors">Grothoff W, Khodakivskyi I, Shin A, Little R, Connolly S, Kabytaev K</div>
-  <div class="publication-journal">Journal of mass spectrometry and advances in the clinical lab, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40093566/"><span class="visually-hidden">MRM-based LC-MS method for accurate C-peptide quantitation: </span>PubMed</a>
-    <a href="https://doi.org/10.1016/j.jmsacl.2025.02.001"><span class="visually-hidden">MRM-based LC-MS method for accurate C-peptide quantitation: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Development and Clinical Evaluation of a Multiplexed Health Surveillance Panel Using Ultra High-Throughput PRM-MS in an Inflammatory Bowel Disease Cohort</div>
-  <div class="publication-authors">Fu Q, Remes PM, Lee J, Jacob C, Li D, Vegesna M, Raedschelders K, Haghani A, Mengesha E, Debbas P, Hoedt E, Joung S, Cheng S, Peterman S, Fert-Bober J, Melmed GY, McGovern DPB, Murray CI, Van Eyk JE</div>
-  <div class="publication-journal">Angewandte Chemie (International ed. in English), 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40977243/"><span class="visually-hidden">Development and Clinical Evaluation of a Multiplexed Health Surveillance Panel Using Ultra High-Throughput PRM-MS in an Inflammatory Bowel Disease Cohort: </span>PubMed</a>
-    <a href="https://doi.org/10.1002/anie.202507610"><span class="visually-hidden">Development and Clinical Evaluation of a Multiplexed Health Surveillance Panel Using Ultra High-Throughput PRM-MS in an Inflammatory Bowel Disease Cohort: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Insights into insulin analog cross-reactivity: a comparative study of Siemens Atellica and LC-MS/MS</div>
-  <div class="publication-authors">Li J, Hatten-Beck M, Lee JKY, Hoofnagle AN</div>
-  <div class="publication-journal">Endocrine, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/39030378/"><span class="visually-hidden">Insights into insulin analog cross-reactivity: a comparative study of Siemens Atellica and LC-MS/MS: </span>PubMed</a>
-    <a href="https://doi.org/10.1007/s12020-024-03970-6"><span class="visually-hidden">Insights into insulin analog cross-reactivity: a comparative study of Siemens Atellica and LC-MS/MS: </span>DOI</a>
   </div>
 </li>
 
@@ -183,6 +53,16 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
+  <div class="publication-title">Single-Islet Proteomics Maps Pseudo-Temporal Islet Immune Responses and Dysfunction in Stage 1 Type 1 Diabetes</div>
+  <div class="publication-authors">Kelly S, Sarkar S, Williams SM, Fu AD, Butterworth EA, Sagendorf TJ, Nierves LA, Kwon Y, Li X, Petyuk VA, Chen J, Nakayasu ES, Atkinson MA, Kulkarni RN, Mathews CE, Zhu Y, Campbell-Thompson M, Qian WJ</div>
+  <div class="publication-journal">bioRxiv : the preprint server for biology, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/41292817/"><span class="visually-hidden">Single-Islet Proteomics Maps Pseudo-Temporal Islet Immune Responses and Dysfunction in Stage 1 Type 1 Diabetes: </span>PubMed</a>
+    <a href="https://doi.org/10.1101/2025.11.10.687674"><span class="visually-hidden">Single-Islet Proteomics Maps Pseudo-Temporal Islet Immune Responses and Dysfunction in Stage 1 Type 1 Diabetes: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
   <div class="publication-title">A multiplex assay of leptin, resistin, and adiponectin by immunoaffinity enrichment and targeted mass spectrometry</div>
   <div class="publication-authors">Pu J, Yang X, Lin TT, Fillmore TL, Gritsenko MA, Kelly SS, Swensen AC, Shi T, Master SR, DeLany JP, Goodpaster BH, Qian WJ, Qu J</div>
   <div class="publication-journal">Journal of mass spectrometry and advances in the clinical lab, 2025</div>
@@ -193,22 +73,22 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Open-Source and FAIR Research Software for Proteomics</div>
-  <div class="publication-authors">Perez-Riverol Y, Bittremieux W, Noble WS, Martens L, Bilbao A, Lazear MR, Grüning B, Katz DS, MacCoss MJ, Dai C, Eng JK, Bouwmeester R, Shortreed MR, Audain E, Sachsenberg T, Van Goey J, Wallmann G, Wen B, Käll L, Fondrie WE</div>
-  <div class="publication-journal">Journal of proteome research, 2025</div>
+  <div class="publication-title">Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists</div>
+  <div class="publication-authors">Hsu C, Shulman N, Stewart H, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc E, MacLean BX, Remes P, Canterbury JD, Makarov A, Hock C, Zabrouskov V, Wu CC, MacCoss MJ</div>
+  <div class="publication-journal">bioRxiv : the preprint server for biology, 2025</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40267229/"><span class="visually-hidden">Open-Source and FAIR Research Software for Proteomics: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.4c01079"><span class="visually-hidden">Open-Source and FAIR Research Software for Proteomics: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40501761/"><span class="visually-hidden">Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists: </span>PubMed</a>
+    <a href="https://doi.org/10.1101/2025.05.30.657132"><span class="visually-hidden">Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists: </span>DOI</a>
   </div>
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research</div>
-  <div class="publication-authors">Nierves LA, Lin TT, Moradian A, Shen Q, Sechi S, MacCoss MJ, Qu J, van Eyk JE, Hoofnagle AN, Qian WJ</div>
-  <div class="publication-journal">The Journal of clinical endocrinology and metabolism, 2025</div>
+  <div class="publication-title">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer</div>
+  <div class="publication-authors">Plubell DL, Huang E, Spencer SE, Poston KL, Montine TJ, MacCoss MJ</div>
+  <div class="publication-journal">Journal of proteome research, 2025</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40056450/"><span class="visually-hidden">Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research: </span>PubMed</a>
-    <a href="https://doi.org/10.1210/clinem/dgaf159"><span class="visually-hidden">Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40328514/"><span class="visually-hidden">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.5c00016"><span class="visually-hidden">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer: </span>DOI</a>
   </div>
 </li>
 
@@ -223,6 +103,96 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
+  <div class="publication-title">Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research</div>
+  <div class="publication-authors">Nierves LA, Lin TT, Moradian A, Shen Q, Sechi S, MacCoss MJ, Qu J, van Eyk JE, Hoofnagle AN, Qian WJ</div>
+  <div class="publication-journal">The Journal of clinical endocrinology and metabolism, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40056450/"><span class="visually-hidden">Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research: </span>PubMed</a>
+    <a href="https://doi.org/10.1210/clinem/dgaf159"><span class="visually-hidden">Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">An Antibody Cocktail-Based Immunoaffinity-LC-MS Method Enabled Ultra-Sensitive and Robust Quantification of Circulating Proinsulin Proteoforms and C-Peptide</div>
+  <div class="publication-authors">Shen Q, Cao W, Zhang M, Lin TT, Monaco GSF, Nierves L, Shi T, Boeser C, Peterman S, Evans-Molina C, Sims EK, Qian WJ, Qu J</div>
+  <div class="publication-journal">Analytical chemistry, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40875001/"><span class="visually-hidden">An Antibody Cocktail-Based Immunoaffinity-LC-MS Method Enabled Ultra-Sensitive and Robust Quantification of Circulating Proinsulin Proteoforms and C-Peptide: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.analchem.5c03256"><span class="visually-hidden">An Antibody Cocktail-Based Immunoaffinity-LC-MS Method Enabled Ultra-Sensitive and Robust Quantification of Circulating Proinsulin Proteoforms and C-Peptide: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Insights into insulin analog cross-reactivity: a comparative study of Siemens Atellica and LC-MS/MS</div>
+  <div class="publication-authors">Li J, Hatten-Beck M, Lee JKY, Hoofnagle AN</div>
+  <div class="publication-journal">Endocrine, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/39030378/"><span class="visually-hidden">Insights into insulin analog cross-reactivity: a comparative study of Siemens Atellica and LC-MS/MS: </span>PubMed</a>
+    <a href="https://doi.org/10.1007/s12020-024-03970-6"><span class="visually-hidden">Insights into insulin analog cross-reactivity: a comparative study of Siemens Atellica and LC-MS/MS: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Molecular Phenotyping With Proteomics</div>
+  <div class="publication-authors">Schweppe DK, Beliveau BJ, Hoofnagle AN</div>
+  <div class="publication-journal">JAMA, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/39883454/"><span class="visually-hidden">Molecular Phenotyping With Proteomics: </span>PubMed</a>
+    <a href="https://doi.org/10.1001/jama.2024.28089"><span class="visually-hidden">Molecular Phenotyping With Proteomics: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Open-Source and FAIR Research Software for Proteomics</div>
+  <div class="publication-authors">Perez-Riverol Y, Bittremieux W, Noble WS, Martens L, Bilbao A, Lazear MR, Grüning B, Katz DS, MacCoss MJ, Dai C, Eng JK, Bouwmeester R, Shortreed MR, Audain E, Sachsenberg T, Van Goey J, Wallmann G, Wen B, Käll L, Fondrie WE</div>
+  <div class="publication-journal">Journal of proteome research, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40267229/"><span class="visually-hidden">Open-Source and FAIR Research Software for Proteomics: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.4c01079"><span class="visually-hidden">Open-Source and FAIR Research Software for Proteomics: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">MRM-based LC-MS method for accurate C-peptide quantitation</div>
+  <div class="publication-authors">Grothoff W, Khodakivskyi I, Shin A, Little R, Connolly S, Kabytaev K</div>
+  <div class="publication-journal">Journal of mass spectrometry and advances in the clinical lab, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40093566/"><span class="visually-hidden">MRM-based LC-MS method for accurate C-peptide quantitation: </span>PubMed</a>
+    <a href="https://doi.org/10.1016/j.jmsacl.2025.02.001"><span class="visually-hidden">MRM-based LC-MS method for accurate C-peptide quantitation: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Characterization of Cytokine Treatment on Human Pancreatic Islets by Top-Down Proteomics</div>
+  <div class="publication-authors">Ives AN, Sagendorf TJ, Nierves L, Lin TT, Dirice E, Kulkarni RN, Paša-Tolić L, Qian WJ, Fulcher JM</div>
+  <div class="publication-journal">Proteomics, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40977091/"><span class="visually-hidden">Characterization of Cytokine Treatment on Human Pancreatic Islets by Top-Down Proteomics: </span>PubMed</a>
+    <a href="https://doi.org/10.1002/pmic.70044"><span class="visually-hidden">Characterization of Cytokine Treatment on Human Pancreatic Islets by Top-Down Proteomics: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Post-Translationally Modified Proteoforms as Biomarkers: From Discovery to Clinical Use</div>
+  <div class="publication-authors">Luo RY, Yeung PSW, Mann MW, Zhang L, Yang YK, Hoofnagle AN</div>
+  <div class="publication-journal">Clinical chemistry, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40850932/"><span class="visually-hidden">Post-Translationally Modified Proteoforms as Biomarkers: From Discovery to Clinical Use: </span>PubMed</a>
+    <a href="https://doi.org/10.1093/clinchem/hvaf094"><span class="visually-hidden">Post-Translationally Modified Proteoforms as Biomarkers: From Discovery to Clinical Use: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">The current status of serum insulin measurements and the need for standardization</div>
+  <div class="publication-authors">Rohlfing C, Petroski G, Hatten-Beck M, Hanson S, Hoofnagle AN, Little RR, Kabytaev K</div>
+  <div class="publication-journal">Clinical chemistry and laboratory medicine, 2025</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40802520/"><span class="visually-hidden">The current status of serum insulin measurements and the need for standardization: </span>PubMed</a>
+    <a href="https://doi.org/10.1515/cclm-2025-0552"><span class="visually-hidden">The current status of serum insulin measurements and the need for standardization: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
   <div class="publication-title">A targeted LC MS/MS assay of a health surveillance panel and its application to chronic kidney disease</div>
   <div class="publication-authors">Fu Q, Johnson C, Inker LA, Van Eyk JE</div>
   <div class="publication-journal">bioRxiv : the preprint server for biology, 2025</div>
@@ -233,42 +203,42 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">An inflection point in high-throughput proteomics with Orbitrap Astral: analysis of biofluids, cells, and tissues</div>
-  <div class="publication-authors">Hendricks NG, Bhosale SD, Keoseyan AJ, Ortiz J, Stotland A, Seyedmohammad S, Nguyen CDL, Bui J, Moradian A, Mockus SM, Van Eyk JE</div>
-  <div class="publication-journal">bioRxiv : the preprint server for biology, 2024</div>
+  <div class="publication-title">Development and Clinical Evaluation of a Multiplexed Health Surveillance Panel Using Ultra High-Throughput PRM-MS in an Inflammatory Bowel Disease Cohort</div>
+  <div class="publication-authors">Fu Q, Remes PM, Lee J, Jacob C, Li D, Vegesna M, Raedschelders K, Haghani A, Mengesha E, Debbas P, Hoedt E, Joung S, Cheng S, Peterman S, Fert-Bober J, Melmed GY, McGovern DPB, Murray CI, Van Eyk JE</div>
+  <div class="publication-journal">Angewandte Chemie (International ed. in English), 2025</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38712179/"><span class="visually-hidden">An inflection point in high-throughput proteomics with Orbitrap Astral: analysis of biofluids, cells, and tissues: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2024.04.26.591396"><span class="visually-hidden">An inflection point in high-throughput proteomics with Orbitrap Astral: analysis of biofluids, cells, and tissues: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40977243/"><span class="visually-hidden">Development and Clinical Evaluation of a Multiplexed Health Surveillance Panel Using Ultra High-Throughput PRM-MS in an Inflammatory Bowel Disease Cohort: </span>PubMed</a>
+    <a href="https://doi.org/10.1002/anie.202507610"><span class="visually-hidden">Development and Clinical Evaluation of a Multiplexed Health Surveillance Panel Using Ultra High-Throughput PRM-MS in an Inflammatory Bowel Disease Cohort: </span>DOI</a>
   </div>
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer</div>
-  <div class="publication-authors">Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston K, Montine T, MacCoss MJ</div>
-  <div class="publication-journal">bioRxiv : the preprint server for biology, 2024</div>
+  <div class="publication-title">Characterization of cytokine treatment on human pancreatic islets by top-down proteomics</div>
+  <div class="publication-authors">Ives AN, Sagendorf T, Nierves L, Lin TT, Dirice E, Kulkarni RN, Paša-Tolić L, Qian WJ, Fulcher JM</div>
+  <div class="publication-journal">bioRxiv : the preprint server for biology, 2025</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38895256/"><span class="visually-hidden">Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2024.06.04.597431"><span class="visually-hidden">Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/40463221/"><span class="visually-hidden">Characterization of cytokine treatment on human pancreatic islets by top-down proteomics: </span>PubMed</a>
+    <a href="https://doi.org/10.1101/2025.05.12.653562"><span class="visually-hidden">Characterization of cytokine treatment on human pancreatic islets by top-down proteomics: </span>DOI</a>
   </div>
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome</div>
-  <div class="publication-authors">Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthelezi S, Stoychev S, Jordaan J, Merrihew G, Huang E, Parker ED, Riffle M, Hoofnagle AN, Noble WS, Poston KL, Montine TJ, MacCoss MJ</div>
-  <div class="publication-journal">bioRxiv : the preprint server for biology, 2024</div>
+  <div class="publication-title">Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists</div>
+  <div class="publication-authors">Hsu C, Shulman N, Stewart HI, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc NE, MacLean BX, Remes PM, Canterbury JD, Makarov AA, Hock C, Zabrouskov V, Wu CC, MacCoss MJ</div>
+  <div class="publication-journal">Journal of proteome research, 2025</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38617345/"><span class="visually-hidden">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2023.06.10.544439"><span class="visually-hidden">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/41122818/"><span class="visually-hidden">Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.5c00593"><span class="visually-hidden">Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists: </span>DOI</a>
   </div>
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">An Inflection Point in High-Throughput Proteomics with Orbitrap Astral: Analysis of Biofluids, Cells, and Tissues</div>
-  <div class="publication-authors">Hendricks NG, Bhosale SD, Keoseyan AJ, Ortiz J, Stotland A, Seyedmohammad S, Nguyen CDL, Bui JT, Moradian A, Mockus SM, Van Eyk JE</div>
-  <div class="publication-journal">Journal of proteome research, 2024</div>
+  <div class="publication-title">Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics</div>
+  <div class="publication-authors">Remes PM, Jacob CC, Heil LR, Shulman N, MacLean BX, MacCoss MJ</div>
+  <div class="publication-journal">bioRxiv : the preprint server for biology, 2024</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/39163279/"><span class="visually-hidden">An Inflection Point in High-Throughput Proteomics with Orbitrap Astral: Analysis of Biofluids, Cells, and Tissues: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.4c00384"><span class="visually-hidden">An Inflection Point in High-Throughput Proteomics with Orbitrap Astral: Analysis of Biofluids, Cells, and Tissues: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38854069/"><span class="visually-hidden">Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics: </span>PubMed</a>
+    <a href="https://doi.org/10.1101/2024.05.31.596848"><span class="visually-hidden">Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics: </span>DOI</a>
   </div>
 </li>
 
@@ -283,12 +253,12 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Proteomics of the heart</div>
-  <div class="publication-authors">Karpov OA, Stotland A, Raedschelders K, Chazarin B, Ai L, Murray CI, Van Eyk JE</div>
-  <div class="publication-journal">Physiological reviews, 2024</div>
+  <div class="publication-title">Exploring new frontiers in type 1 diabetes through advanced mass-spectrometry-based molecular measurements</div>
+  <div class="publication-authors">Sarkar S, Zheng X, Clair GC, Kwon YM, You Y, Swensen AC, Webb-Robertson BM, Nakayasu ES, Qian WJ, Metz TO</div>
+  <div class="publication-journal">Trends in molecular medicine, 2024</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38300522/"><span class="visually-hidden">Proteomics of the heart: </span>PubMed</a>
-    <a href="https://doi.org/10.1152/physrev.00026.2023"><span class="visually-hidden">Proteomics of the heart: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/39152082/"><span class="visually-hidden">Exploring new frontiers in type 1 diabetes through advanced mass-spectrometry-based molecular measurements: </span>PubMed</a>
+    <a href="https://doi.org/10.1016/j.molmed.2024.07.009"><span class="visually-hidden">Exploring new frontiers in type 1 diabetes through advanced mass-spectrometry-based molecular measurements: </span>DOI</a>
   </div>
 </li>
 
@@ -303,12 +273,12 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin</div>
-  <div class="publication-authors">Moradian A, Goonatilleke E, Lin TT, Hatten-Beck M, Emrick M, Schepmoes AA, Fillmore TL, MacCoss MJ, Sechi S, Sobhani K, Little R, Kabytaev K, van Eyk JE, Qian WJ, Hoofnagle AN</div>
-  <div class="publication-journal">Clinical chemistry, 2024</div>
+  <div class="publication-title">Proteomics of the heart</div>
+  <div class="publication-authors">Karpov OA, Stotland A, Raedschelders K, Chazarin B, Ai L, Murray CI, Van Eyk JE</div>
+  <div class="publication-journal">Physiological reviews, 2024</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38549041/"><span class="visually-hidden">Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin: </span>PubMed</a>
-    <a href="https://doi.org/10.1093/clinchem/hvae034"><span class="visually-hidden">Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38300522/"><span class="visually-hidden">Proteomics of the heart: </span>PubMed</a>
+    <a href="https://doi.org/10.1152/physrev.00026.2023"><span class="visually-hidden">Proteomics of the heart: </span>DOI</a>
   </div>
 </li>
 
@@ -333,32 +303,32 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">A Framework for Quality Control in Quantitative Proteomics</div>
-  <div class="publication-authors">Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ</div>
-  <div class="publication-journal">Journal of proteome research, 2024</div>
+  <div class="publication-title">Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin</div>
+  <div class="publication-authors">Moradian A, Goonatilleke E, Lin TT, Hatten-Beck M, Emrick M, Schepmoes AA, Fillmore TL, MacCoss MJ, Sechi S, Sobhani K, Little R, Kabytaev K, van Eyk JE, Qian WJ, Hoofnagle AN</div>
+  <div class="publication-journal">Clinical chemistry, 2024</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/39248652/"><span class="visually-hidden">A Framework for Quality Control in Quantitative Proteomics: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.4c00363"><span class="visually-hidden">A Framework for Quality Control in Quantitative Proteomics: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38549041/"><span class="visually-hidden">Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin: </span>PubMed</a>
+    <a href="https://doi.org/10.1093/clinchem/hvae034"><span class="visually-hidden">Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin: </span>DOI</a>
   </div>
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer</div>
-  <div class="publication-authors">Plubell DL, Huang E, Spencer SE, Poston K, Montine TJ, MacCoss MJ</div>
+  <div class="publication-title">An inflection point in high-throughput proteomics with Orbitrap Astral: analysis of biofluids, cells, and tissues</div>
+  <div class="publication-authors">Hendricks NG, Bhosale SD, Keoseyan AJ, Ortiz J, Stotland A, Seyedmohammad S, Nguyen CDL, Bui J, Moradian A, Mockus SM, Van Eyk JE</div>
   <div class="publication-journal">bioRxiv : the preprint server for biology, 2024</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38853953/"><span class="visually-hidden">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2024.05.29.596554"><span class="visually-hidden">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38712179/"><span class="visually-hidden">An inflection point in high-throughput proteomics with Orbitrap Astral: analysis of biofluids, cells, and tissues: </span>PubMed</a>
+    <a href="https://doi.org/10.1101/2024.04.26.591396"><span class="visually-hidden">An inflection point in high-throughput proteomics with Orbitrap Astral: analysis of biofluids, cells, and tissues: </span>DOI</a>
   </div>
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Exploring new frontiers in type 1 diabetes through advanced mass-spectrometry-based molecular measurements</div>
-  <div class="publication-authors">Sarkar S, Zheng X, Clair GC, Kwon YM, You Y, Swensen AC, Webb-Robertson BM, Nakayasu ES, Qian WJ, Metz TO</div>
-  <div class="publication-journal">Trends in molecular medicine, 2024</div>
+  <div class="publication-title">An Inflection Point in High-Throughput Proteomics with Orbitrap Astral: Analysis of Biofluids, Cells, and Tissues</div>
+  <div class="publication-authors">Hendricks NG, Bhosale SD, Keoseyan AJ, Ortiz J, Stotland A, Seyedmohammad S, Nguyen CDL, Bui JT, Moradian A, Mockus SM, Van Eyk JE</div>
+  <div class="publication-journal">Journal of proteome research, 2024</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/39152082/"><span class="visually-hidden">Exploring new frontiers in type 1 diabetes through advanced mass-spectrometry-based molecular measurements: </span>PubMed</a>
-    <a href="https://doi.org/10.1016/j.molmed.2024.07.009"><span class="visually-hidden">Exploring new frontiers in type 1 diabetes through advanced mass-spectrometry-based molecular measurements: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/39163279/"><span class="visually-hidden">An Inflection Point in High-Throughput Proteomics with Orbitrap Astral: Analysis of Biofluids, Cells, and Tissues: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.4c00384"><span class="visually-hidden">An Inflection Point in High-Throughput Proteomics with Orbitrap Astral: Analysis of Biofluids, Cells, and Tissues: </span>DOI</a>
   </div>
 </li>
 
@@ -373,6 +343,26 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
+  <div class="publication-title">A Framework for Quality Control in Quantitative Proteomics</div>
+  <div class="publication-authors">Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ</div>
+  <div class="publication-journal">Journal of proteome research, 2024</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/39248652/"><span class="visually-hidden">A Framework for Quality Control in Quantitative Proteomics: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.4c00363"><span class="visually-hidden">A Framework for Quality Control in Quantitative Proteomics: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome</div>
+  <div class="publication-authors">Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthelezi S, Stoychev S, Jordaan J, Merrihew G, Huang E, Parker ED, Riffle M, Hoofnagle AN, Noble WS, Poston KL, Montine TJ, MacCoss MJ</div>
+  <div class="publication-journal">bioRxiv : the preprint server for biology, 2024</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38617345/"><span class="visually-hidden">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome: </span>PubMed</a>
+    <a href="https://doi.org/10.1101/2023.06.10.544439"><span class="visually-hidden">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
   <div class="publication-title">High Doses of Exogenous Glucagon Stimulate Insulin Secretion and Reduce Insulin Clearance in Healthy Humans</div>
   <div class="publication-authors">Gray SM, Goonatilleke E, Emrick MA, Becker JO, Hoofnagle AN, Stefanovski D, He W, Zhang G, Tong J, Campbell J, D'Alessio DA</div>
   <div class="publication-journal">Diabetes, 2024</div>
@@ -383,112 +373,22 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics</div>
-  <div class="publication-authors">Remes PM, Jacob CC, Heil LR, Shulman N, MacLean BX, MacCoss MJ</div>
+  <div class="publication-title">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer</div>
+  <div class="publication-authors">Plubell DL, Huang E, Spencer SE, Poston K, Montine TJ, MacCoss MJ</div>
   <div class="publication-journal">bioRxiv : the preprint server for biology, 2024</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38854069/"><span class="visually-hidden">Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2024.05.31.596848"><span class="visually-hidden">Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38853953/"><span class="visually-hidden">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer: </span>PubMed</a>
+    <a href="https://doi.org/10.1101/2024.05.29.596554"><span class="visually-hidden">Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer: </span>DOI</a>
   </div>
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Targeted Quantification of Protein Phosphorylation and Its Contributions towards Mathematical Modeling of Signaling Pathways</div>
-  <div class="publication-authors">Dakup PP, Feng S, Shi T, Jacobs JM, Wiley HS, Qian WJ</div>
-  <div class="publication-journal">Molecules (Basel, Switzerland), 2023</div>
+  <div class="publication-title">Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer</div>
+  <div class="publication-authors">Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston K, Montine T, MacCoss MJ</div>
+  <div class="publication-journal">bioRxiv : the preprint server for biology, 2024</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/36770810/"><span class="visually-hidden">Targeted Quantification of Protein Phosphorylation and Its Contributions towards Mathematical Modeling of Signaling Pathways: </span>PubMed</a>
-    <a href="https://doi.org/10.3390/molecules28031143"><span class="visually-hidden">Targeted Quantification of Protein Phosphorylation and Its Contributions towards Mathematical Modeling of Signaling Pathways: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Targeted Mass Spectrometry Assays for Specific Quantification of Urinary proPSA Isoforms</div>
-  <div class="publication-authors">Kitata RB, Hu LY, Lin TT, Nicora CD, Fillmore TL, Nie S, Hudson RD, Liu T, Leach RJ, Liu AY, Qian WJ, Shi T</div>
-  <div class="publication-journal">Journal of proteome research, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/36626706/"><span class="visually-hidden">Targeted Mass Spectrometry Assays for Specific Quantification of Urinary proPSA Isoforms: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.2c00745"><span class="visually-hidden">Targeted Mass Spectrometry Assays for Specific Quantification of Urinary proPSA Isoforms: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Transcriptome and secretome profiling of sensory neurons reveals sex differences in pathways relevant to insulin sensing and insulin secretion</div>
-  <div class="publication-authors">Moon S, Alsarkhi L, Lin TT, Inoue R, Tahiri A, Colson C, Cai W, Shirakawa J, Qian WJ, Zhao JY, El Ouaamari A</div>
-  <div class="publication-journal">FASEB journal : official publication of the Federation of American Societies for Experimental Biology, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37695721/"><span class="visually-hidden">Transcriptome and secretome profiling of sensory neurons reveals sex differences in pathways relevant to insulin sensing and insulin secretion: </span>PubMed</a>
-    <a href="https://doi.org/10.1096/fj.202300941R"><span class="visually-hidden">Transcriptome and secretome profiling of sensory neurons reveals sex differences in pathways relevant to insulin sensing and insulin secretion: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">High-Field Asymmetric Waveform Ion Mobility Spectrometry: Practical Alternative for Cardiac Proteome Sample Processing</div>
-  <div class="publication-authors">Ai L, Binek A, Kreimer S, Ayres M, Stotland A, Van Eyk JE</div>
-  <div class="publication-journal">Journal of proteome research, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37040897/"><span class="visually-hidden">High-Field Asymmetric Waveform Ion Mobility Spectrometry: Practical Alternative for Cardiac Proteome Sample Processing: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.3c00027"><span class="visually-hidden">High-Field Asymmetric Waveform Ion Mobility Spectrometry: Practical Alternative for Cardiac Proteome Sample Processing: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Species-Deconvolved Proteomics for In Situ Investigation of Tumor-Stroma Interactions after Treatment of Pancreatic Cancer Patient-Derived Xenografts with Combined Gemcitabine and Paclitaxel</div>
-  <div class="publication-authors">Wang X, Niu J, Qian S, Shen S, Straubinger RM, Qu J</div>
-  <div class="publication-journal">Journal of proteome research, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37311110/"><span class="visually-hidden">Species-Deconvolved Proteomics for In Situ Investigation of Tumor-Stroma Interactions after Treatment of Pancreatic Cancer Patient-Derived Xenografts with Combined Gemcitabine and Paclitaxel: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.3c00164"><span class="visually-hidden">Species-Deconvolved Proteomics for In Situ Investigation of Tumor-Stroma Interactions after Treatment of Pancreatic Cancer Patient-Derived Xenografts with Combined Gemcitabine and Paclitaxel: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway</div>
-  <div class="publication-authors">Rasam S, Lin Q, Shen S, Straubinger RM, Qu J</div>
-  <div class="publication-journal">Journal of proteome research, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37906173/"><span class="visually-hidden">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.3c00463"><span class="visually-hidden">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Highly Accurate and Robust Absolute Quantification of Target Proteins in Formalin-Fixed Paraffin-Embedded (FFPE) Tissues by LC-MS</div>
-  <div class="publication-authors">Pu J, Xue C, Huo S, Shen Q, Qu Y, Yang X, An B, Angel TE, Chen Z, Mehl JT, Tang H, Yang E, Sikorski TW, Qu J</div>
-  <div class="publication-journal">Analytical chemistry, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/36534410/"><span class="visually-hidden">Highly Accurate and Robust Absolute Quantification of Target Proteins in Formalin-Fixed Paraffin-Embedded (FFPE) Tissues by LC-MS: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.analchem.2c03473"><span class="visually-hidden">Highly Accurate and Robust Absolute Quantification of Target Proteins in Formalin-Fixed Paraffin-Embedded (FFPE) Tissues by LC-MS: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">High-quality and robust protein quantification in large clinical/pharmaceutical cohorts with IonStar proteomics investigation</div>
-  <div class="publication-authors">Shen S, Wang X, Zhu X, Rasam S, Ma M, Huo S, Qian S, Zhang M, Qu M, Hu C, Jin L, Tian Y, Sethi S, Poulsen D, Wang J, Tu C, Qu J</div>
-  <div class="publication-journal">Nature protocols, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/36494494/"><span class="visually-hidden">High-quality and robust protein quantification in large clinical/pharmaceutical cohorts with IonStar proteomics investigation: </span>PubMed</a>
-    <a href="https://doi.org/10.1038/s41596-022-00780-w"><span class="visually-hidden">High-quality and robust protein quantification in large clinical/pharmaceutical cohorts with IonStar proteomics investigation: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Top-Down Proteomics of Mouse Islets With Beta Cell CPE Deletion Reveals Molecular Details in Prohormone Processing</div>
-  <div class="publication-authors">Fulcher JM, Swensen AC, Chen YC, Verchere CB, Petyuk VA, Qian WJ</div>
-  <div class="publication-journal">Endocrinology, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37967211/"><span class="visually-hidden">Top-Down Proteomics of Mouse Islets With Beta Cell CPE Deletion Reveals Molecular Details in Prohormone Processing: </span>PubMed</a>
-    <a href="https://doi.org/10.1210/endocr/bqad160"><span class="visually-hidden">Top-Down Proteomics of Mouse Islets With Beta Cell CPE Deletion Reveals Molecular Details in Prohormone Processing: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Plasma protein biomarkers predict the development of persistent autoantibodies and type 1 diabetes 6 months prior to the onset of autoimmunity</div>
-  <div class="publication-authors">Nakayasu ES, Bramer LM, Ansong C, Schepmoes AA, Fillmore TL, Gritsenko MA, Clauss TR, Gao Y, Piehowski PD, Stanfill BA, Engel DW, Orton DJ, Moore RJ, Qian WJ, Sechi S, Frohnert BI, Toppari J, Ziegler AG, Lernmark Å, Hagopian W, Akolkar B, Smith RD, Rewers MJ, Webb-Robertson BM, Metz TO</div>
-  <div class="publication-journal">Cell reports. Medicine, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37390828/"><span class="visually-hidden">Plasma protein biomarkers predict the development of persistent autoantibodies and type 1 diabetes 6 months prior to the onset of autoimmunity: </span>PubMed</a>
-    <a href="https://doi.org/10.1016/j.xcrm.2023.101093"><span class="visually-hidden">Plasma protein biomarkers predict the development of persistent autoantibodies and type 1 diabetes 6 months prior to the onset of autoimmunity: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/38895256/"><span class="visually-hidden">Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer: </span>PubMed</a>
+    <a href="https://doi.org/10.1101/2024.06.04.597431"><span class="visually-hidden">Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer: </span>DOI</a>
   </div>
 </li>
 
@@ -503,12 +403,12 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Mass spectrometry-based targeted proteomics for analysis of protein mutations</div>
-  <div class="publication-authors">Lin TT, Zhang T, Kitata RB, Liu T, Smith RD, Qian WJ, Shi T</div>
-  <div class="publication-journal">Mass spectrometry reviews, 2023</div>
+  <div class="publication-title">Targeted Quantification of Protein Phosphorylation and Its Contributions towards Mathematical Modeling of Signaling Pathways</div>
+  <div class="publication-authors">Dakup PP, Feng S, Shi T, Jacobs JM, Wiley HS, Qian WJ</div>
+  <div class="publication-journal">Molecules (Basel, Switzerland), 2023</div>
   <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/34719806/"><span class="visually-hidden">Mass spectrometry-based targeted proteomics for analysis of protein mutations: </span>PubMed</a>
-    <a href="https://doi.org/10.1002/mas.21741"><span class="visually-hidden">Mass spectrometry-based targeted proteomics for analysis of protein mutations: </span>DOI</a>
+    <a href="https://pubmed.ncbi.nlm.nih.gov/36770810/"><span class="visually-hidden">Targeted Quantification of Protein Phosphorylation and Its Contributions towards Mathematical Modeling of Signaling Pathways: </span>PubMed</a>
+    <a href="https://doi.org/10.3390/molecules28031143"><span class="visually-hidden">Targeted Quantification of Protein Phosphorylation and Its Contributions towards Mathematical Modeling of Signaling Pathways: </span>DOI</a>
   </div>
 </li>
 
@@ -519,6 +419,106 @@ Publications from the TaMADOR consortium supported by:
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/36599300/"><span class="visually-hidden">Profiling mouse brown and white adipocytes to identify metabolically relevant small ORFs and functional microproteins: </span>PubMed</a>
     <a href="https://doi.org/10.1016/j.cmet.2022.12.004"><span class="visually-hidden">Profiling mouse brown and white adipocytes to identify metabolically relevant small ORFs and functional microproteins: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">High-quality and robust protein quantification in large clinical/pharmaceutical cohorts with IonStar proteomics investigation</div>
+  <div class="publication-authors">Shen S, Wang X, Zhu X, Rasam S, Ma M, Huo S, Qian S, Zhang M, Qu M, Hu C, Jin L, Tian Y, Sethi S, Poulsen D, Wang J, Tu C, Qu J</div>
+  <div class="publication-journal">Nature protocols, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/36494494/"><span class="visually-hidden">High-quality and robust protein quantification in large clinical/pharmaceutical cohorts with IonStar proteomics investigation: </span>PubMed</a>
+    <a href="https://doi.org/10.1038/s41596-022-00780-w"><span class="visually-hidden">High-quality and robust protein quantification in large clinical/pharmaceutical cohorts with IonStar proteomics investigation: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Mass spectrometry-based targeted proteomics for analysis of protein mutations</div>
+  <div class="publication-authors">Lin TT, Zhang T, Kitata RB, Liu T, Smith RD, Qian WJ, Shi T</div>
+  <div class="publication-journal">Mass spectrometry reviews, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/34719806/"><span class="visually-hidden">Mass spectrometry-based targeted proteomics for analysis of protein mutations: </span>PubMed</a>
+    <a href="https://doi.org/10.1002/mas.21741"><span class="visually-hidden">Mass spectrometry-based targeted proteomics for analysis of protein mutations: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Top-Down Proteomics of Mouse Islets With Beta Cell CPE Deletion Reveals Molecular Details in Prohormone Processing</div>
+  <div class="publication-authors">Fulcher JM, Swensen AC, Chen YC, Verchere CB, Petyuk VA, Qian WJ</div>
+  <div class="publication-journal">Endocrinology, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37967211/"><span class="visually-hidden">Top-Down Proteomics of Mouse Islets With Beta Cell CPE Deletion Reveals Molecular Details in Prohormone Processing: </span>PubMed</a>
+    <a href="https://doi.org/10.1210/endocr/bqad160"><span class="visually-hidden">Top-Down Proteomics of Mouse Islets With Beta Cell CPE Deletion Reveals Molecular Details in Prohormone Processing: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Targeted Mass Spectrometry Assays for Specific Quantification of Urinary proPSA Isoforms</div>
+  <div class="publication-authors">Kitata RB, Hu LY, Lin TT, Nicora CD, Fillmore TL, Nie S, Hudson RD, Liu T, Leach RJ, Liu AY, Qian WJ, Shi T</div>
+  <div class="publication-journal">Journal of proteome research, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/36626706/"><span class="visually-hidden">Targeted Mass Spectrometry Assays for Specific Quantification of Urinary proPSA Isoforms: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.2c00745"><span class="visually-hidden">Targeted Mass Spectrometry Assays for Specific Quantification of Urinary proPSA Isoforms: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">High-Field Asymmetric Waveform Ion Mobility Spectrometry: Practical Alternative for Cardiac Proteome Sample Processing</div>
+  <div class="publication-authors">Ai L, Binek A, Kreimer S, Ayres M, Stotland A, Van Eyk JE</div>
+  <div class="publication-journal">Journal of proteome research, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37040897/"><span class="visually-hidden">High-Field Asymmetric Waveform Ion Mobility Spectrometry: Practical Alternative for Cardiac Proteome Sample Processing: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.3c00027"><span class="visually-hidden">High-Field Asymmetric Waveform Ion Mobility Spectrometry: Practical Alternative for Cardiac Proteome Sample Processing: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Highly Accurate and Robust Absolute Quantification of Target Proteins in Formalin-Fixed Paraffin-Embedded (FFPE) Tissues by LC-MS</div>
+  <div class="publication-authors">Pu J, Xue C, Huo S, Shen Q, Qu Y, Yang X, An B, Angel TE, Chen Z, Mehl JT, Tang H, Yang E, Sikorski TW, Qu J</div>
+  <div class="publication-journal">Analytical chemistry, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/36534410/"><span class="visually-hidden">Highly Accurate and Robust Absolute Quantification of Target Proteins in Formalin-Fixed Paraffin-Embedded (FFPE) Tissues by LC-MS: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.analchem.2c03473"><span class="visually-hidden">Highly Accurate and Robust Absolute Quantification of Target Proteins in Formalin-Fixed Paraffin-Embedded (FFPE) Tissues by LC-MS: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Species-Deconvolved Proteomics for In Situ Investigation of Tumor-Stroma Interactions after Treatment of Pancreatic Cancer Patient-Derived Xenografts with Combined Gemcitabine and Paclitaxel</div>
+  <div class="publication-authors">Wang X, Niu J, Qian S, Shen S, Straubinger RM, Qu J</div>
+  <div class="publication-journal">Journal of proteome research, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37311110/"><span class="visually-hidden">Species-Deconvolved Proteomics for In Situ Investigation of Tumor-Stroma Interactions after Treatment of Pancreatic Cancer Patient-Derived Xenografts with Combined Gemcitabine and Paclitaxel: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.3c00164"><span class="visually-hidden">Species-Deconvolved Proteomics for In Situ Investigation of Tumor-Stroma Interactions after Treatment of Pancreatic Cancer Patient-Derived Xenografts with Combined Gemcitabine and Paclitaxel: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Transcriptome and secretome profiling of sensory neurons reveals sex differences in pathways relevant to insulin sensing and insulin secretion</div>
+  <div class="publication-authors">Moon S, Alsarkhi L, Lin TT, Inoue R, Tahiri A, Colson C, Cai W, Shirakawa J, Qian WJ, Zhao JY, El Ouaamari A</div>
+  <div class="publication-journal">FASEB journal : official publication of the Federation of American Societies for Experimental Biology, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37695721/"><span class="visually-hidden">Transcriptome and secretome profiling of sensory neurons reveals sex differences in pathways relevant to insulin sensing and insulin secretion: </span>PubMed</a>
+    <a href="https://doi.org/10.1096/fj.202300941R"><span class="visually-hidden">Transcriptome and secretome profiling of sensory neurons reveals sex differences in pathways relevant to insulin sensing and insulin secretion: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Plasma protein biomarkers predict the development of persistent autoantibodies and type 1 diabetes 6 months prior to the onset of autoimmunity</div>
+  <div class="publication-authors">Nakayasu ES, Bramer LM, Ansong C, Schepmoes AA, Fillmore TL, Gritsenko MA, Clauss TR, Gao Y, Piehowski PD, Stanfill BA, Engel DW, Orton DJ, Moore RJ, Qian WJ, Sechi S, Frohnert BI, Toppari J, Ziegler AG, Lernmark Å, Hagopian W, Akolkar B, Smith RD, Rewers MJ, Webb-Robertson BM, Metz TO</div>
+  <div class="publication-journal">Cell reports. Medicine, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37390828/"><span class="visually-hidden">Plasma protein biomarkers predict the development of persistent autoantibodies and type 1 diabetes 6 months prior to the onset of autoimmunity: </span>PubMed</a>
+    <a href="https://doi.org/10.1016/j.xcrm.2023.101093"><span class="visually-hidden">Plasma protein biomarkers predict the development of persistent autoantibodies and type 1 diabetes 6 months prior to the onset of autoimmunity: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway</div>
+  <div class="publication-authors">Rasam S, Lin Q, Shen S, Straubinger RM, Qu J</div>
+  <div class="publication-journal">Journal of proteome research, 2023</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/37906173/"><span class="visually-hidden">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.3c00463"><span class="visually-hidden">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway: </span>DOI</a>
   </div>
 </li>
 
@@ -543,26 +543,6 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
-  <div class="publication-title">Ultra-High-Resolution IonStar Strategy Enhancing Accuracy and Precision of MS1-Based Proteomics and an Extensive Comparison with State-of-the-Art SWATH-MS in Large-Cohort Quantification</div>
-  <div class="publication-authors">Wang X, Jin L, Hu C, Shen S, Qian S, Ma M, Zhu X, Li F, Wang J, Tian Y, Qu J</div>
-  <div class="publication-journal">Analytical chemistry, 2021</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/33687211/"><span class="visually-hidden">Ultra-High-Resolution IonStar Strategy Enhancing Accuracy and Precision of MS1-Based Proteomics and an Extensive Comparison with State-of-the-Art SWATH-MS in Large-Cohort Quantification: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.analchem.0c05002"><span class="visually-hidden">Ultra-High-Resolution IonStar Strategy Enhancing Accuracy and Precision of MS1-Based Proteomics and an Extensive Comparison with State-of-the-Art SWATH-MS in Large-Cohort Quantification: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Tutorial: best practices and considerations for mass-spectrometry-based protein biomarker discovery and validation</div>
-  <div class="publication-authors">Nakayasu ES, Gritsenko M, Piehowski PD, Gao Y, Orton DJ, Schepmoes AA, Fillmore TL, Frohnert BI, Rewers M, Krischer JP, Ansong C, Suchy-Dicey AM, Evans-Molina C, Qian WJ, Webb-Robertson BM, Metz TO</div>
-  <div class="publication-journal">Nature protocols, 2021</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/34244696/"><span class="visually-hidden">Tutorial: best practices and considerations for mass-spectrometry-based protein biomarker discovery and validation: </span>PubMed</a>
-    <a href="https://doi.org/10.1038/s41596-021-00566-6"><span class="visually-hidden">Tutorial: best practices and considerations for mass-spectrometry-based protein biomarker discovery and validation: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
   <div class="publication-title">Parallel, High-Quality Proteomic and Targeted Metabolomic Quantification Using Laser Capture Microdissected Tissues</div>
   <div class="publication-authors">Shen S, Li J, Huo S, Ma M, Zhu X, Rasam S, Duan X, Qu M, Titus MA, Qu J</div>
   <div class="publication-journal">Analytical chemistry, 2021</div>
@@ -573,12 +553,32 @@ Publications from the TaMADOR consortium supported by:
 </li>
 
 <li class="publication-item">
+  <div class="publication-title">Ultra-High-Resolution IonStar Strategy Enhancing Accuracy and Precision of MS1-Based Proteomics and an Extensive Comparison with State-of-the-Art SWATH-MS in Large-Cohort Quantification</div>
+  <div class="publication-authors">Wang X, Jin L, Hu C, Shen S, Qian S, Ma M, Zhu X, Li F, Wang J, Tian Y, Qu J</div>
+  <div class="publication-journal">Analytical chemistry, 2021</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/33687211/"><span class="visually-hidden">Ultra-High-Resolution IonStar Strategy Enhancing Accuracy and Precision of MS1-Based Proteomics and an Extensive Comparison with State-of-the-Art SWATH-MS in Large-Cohort Quantification: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.analchem.0c05002"><span class="visually-hidden">Ultra-High-Resolution IonStar Strategy Enhancing Accuracy and Precision of MS1-Based Proteomics and an Extensive Comparison with State-of-the-Art SWATH-MS in Large-Cohort Quantification: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
   <div class="publication-title">A Pilot Study of Urine Proteomics in COVID-19-Associated Acute Kidney Injury</div>
   <div class="publication-authors">Ye Y, Swensen AC, Wang Y, Kaushal M, Salamon D, Knoten A, Nicora CD, Marks L, Gaut JP, Vijayan A, Orton DJ, Mudd PA, Parikh CR, Qian WJ, O'Halloran JA, Piehowski PD, Jain S</div>
   <div class="publication-journal">Kidney international reports, 2021</div>
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/34642644/"><span class="visually-hidden">A Pilot Study of Urine Proteomics in COVID-19-Associated Acute Kidney Injury: </span>PubMed</a>
     <a href="https://doi.org/10.1016/j.ekir.2021.09.010"><span class="visually-hidden">A Pilot Study of Urine Proteomics in COVID-19-Associated Acute Kidney Injury: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Tutorial: best practices and considerations for mass-spectrometry-based protein biomarker discovery and validation</div>
+  <div class="publication-authors">Nakayasu ES, Gritsenko M, Piehowski PD, Gao Y, Orton DJ, Schepmoes AA, Fillmore TL, Frohnert BI, Rewers M, Krischer JP, Ansong C, Suchy-Dicey AM, Evans-Molina C, Qian WJ, Webb-Robertson BM, Metz TO</div>
+  <div class="publication-journal">Nature protocols, 2021</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/34244696/"><span class="visually-hidden">Tutorial: best practices and considerations for mass-spectrometry-based protein biomarker discovery and validation: </span>PubMed</a>
+    <a href="https://doi.org/10.1038/s41596-021-00566-6"><span class="visually-hidden">Tutorial: best practices and considerations for mass-spectrometry-based protein biomarker discovery and validation: </span>DOI</a>
   </div>
 </li>
 
