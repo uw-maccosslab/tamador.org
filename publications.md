@@ -18,7 +18,7 @@ Publications from the TaMADOR consortium supported by:
 
 and 2 preprints awaiting peer review*
 
-*Last updated: August 04, 2026 — 56 peer-reviewed publications and 2 preprints awaiting peer review*
+*Last updated: August 04, 2026 — 55 peer-reviewed publications and 2 preprints awaiting peer review*
 
 ---
 
@@ -231,16 +231,6 @@ and 2 preprints awaiting peer review*
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/40093568/"><span class="visually-hidden">A multiplex assay of leptin, resistin, and adiponectin by immunoaffinity enrichment and targeted mass spectrometry: </span>PubMed</a>
     <a href="https://doi.org/10.1016/j.jmsacl.2025.01.003"><span class="visually-hidden">A multiplex assay of leptin, resistin, and adiponectin by immunoaffinity enrichment and targeted mass spectrometry: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">MRM-based LC-MS method for accurate C-peptide quantitation</div>
-  <div class="publication-authors">Grothoff W, Khodakivskyi I, Shin A, Little R, Connolly S, Kabytaev K</div>
-  <div class="publication-journal">Journal of mass spectrometry and advances in the clinical lab, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40093566/"><span class="visually-hidden">MRM-based LC-MS method for accurate C-peptide quantitation: </span>PubMed</a>
-    <a href="https://doi.org/10.1016/j.jmsacl.2025.02.001"><span class="visually-hidden">MRM-based LC-MS method for accurate C-peptide quantitation: </span>DOI</a>
   </div>
 </li>
 

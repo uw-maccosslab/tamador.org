@@ -23,6 +23,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use('Agg')  # Use non-interactive backend for server/CI
 import matplotlib.pyplot as plt
+from matplotlib.ticker import MaxNLocator
 
 # Configuration
 GRANT_NUMBERS = [
@@ -35,11 +36,15 @@ GRANT_NUMBERS = [
 # Additional PMIDs to include. PubMed indexes the grants a record actually
 # declares, so a paper that credits a TaMADOR grant in its own text is still
 # unreachable by grant search when that grant is missing from the PubMed record.
+#
+# Keep a note on each entry saying why the grant search cannot reach it. Two
+# earlier entries, 40802520 and 38109936, were dropped once the search began
+# matching bare grant numbers, which finds them on its own.
 ADDITIONAL_PMIDS = [
-    '40802520',
-    '40093566',
+    # 'Diffusing protein binders to intrinsically disordered proteins'
+    # (Nature 2025). Consortium work through Hoofnagle, one of 32 authors,
+    # though the paper credits P30 DK017047 rather than a TaMADOR grant.
     '40739343',
-    '38109936',
     # 'Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade
     # between two immunotherapies' (bioRxiv 2026). The preprint credits
     # U01 DK137097, but PubMed indexes only R35 GM150919 for it.
@@ -474,6 +479,10 @@ def generate_publications_plot(publications):
     if len(years) > 0:
         ax.set_xlim(min(years) - 0.5, max(years) + 0.5)
         ax.set_xticks(years)
+
+    # Publication counts are whole numbers, so keep matplotlib from choosing
+    # fractional ticks (it picks 2.5 steps at some axis ranges)
+    ax.yaxis.set_major_locator(MaxNLocator(integer=True))
 
     # Add gridlines for better readability
     ax.yaxis.grid(True, linestyle='--', alpha=0.3)
