@@ -18,14 +18,18 @@ deactivate
 The `fetch_publications.py` script:
 
 1. **Queries PubMed** for all papers crediting TaMADOR grants
-2. **Fetches 52 publications** (as of Feb 2026) across 8 years (2018-2025)
-3. **Updates publications.md** with formatted publication list
-4. **Generates a chart** showing publications per year
+2. **Fetches 59 distinct papers** (as of Aug 2026) across 9 years (2018-2026):
+   57 peer reviewed plus 2 preprints not yet peer reviewed
+3. **Collapses preprint duplicates**, keeping the peer-reviewed version of any
+   paper that has one
+4. **Updates publications.md** with formatted publication list
+5. **Generates a chart** of peer-reviewed publications and preprints per year
 
 ## Output Files
 
 - `publications.md` - Updated with current publication list
-- `assets/images/publication-metrics.png` - Bar chart of pubs per year
+- `assets/images/publication-metrics.png` - Stacked bar chart of peer-reviewed
+  publications and preprints per year
 
 ## Automation
 
@@ -85,9 +89,10 @@ jobs:
 
 Edit `scripts/fetch_publications.py` to:
 
-- Change grant numbers (lines 19-24)
-- Modify plot styling (lines 285-330)
-- Adjust publication formatting (lines 194-210)
+- Change grant numbers (`GRANT_NUMBERS`)
+- Add papers the grant search misses (`ADDITIONAL_PMIDS`)
+- Modify plot styling (`generate_publications_plot`)
+- Adjust publication formatting (`update_publications_file`)
 
 ## Troubleshooting
 

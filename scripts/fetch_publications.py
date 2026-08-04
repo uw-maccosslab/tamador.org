@@ -40,8 +40,25 @@ ADDITIONAL_PMIDS = [
     '38109936'
 ]
 
+
+def grant_core_number(grant):
+    """Extract the core grant number (e.g. 'DK137097' from 'U01 DK137097').
+
+    PubMed's [Grant Number] field is a literal string match against whatever the
+    depositor recorded, and the same grant shows up several ways: 'U01 DK137097',
+    'U01DK137097' (no space), or buried in a free-text blob such as
+    'NCI:P30CA016056 / NIH: DK124020, HL103411'. Searching the bare core number
+    matches all of these, whereas searching '"U01 DK137097"[Grant Number]' only
+    matches the spaced form and silently drops the rest.
+    """
+    match = re.search(r'([A-Z]{2}\d{6,})', grant.replace(' ', ''))
+    return match.group(1) if match else grant
+
+
 # Build PubMed search query for grant numbers
-PUBMED_SEARCH_TERM = ' OR '.join([f'"{grant}"[Grant Number]' for grant in GRANT_NUMBERS])
+PUBMED_SEARCH_TERM = ' OR '.join(
+    [f'{grant_core_number(grant)}[Grant Number]' for grant in GRANT_NUMBERS]
+)
 
 PUBLICATIONS_FILE = Path(__file__).parent.parent / 'publications.md'
 PLOT_OUTPUT_FILE = Path(__file__).parent.parent / 'assets' / 'images' / 'publication-metrics.png'
@@ -95,6 +112,26 @@ def fetch_publication_details(pmids):
     return all_publications
 
 
+MONTH_NUMBERS = {
+    'jan': 1, 'feb': 2, 'mar': 3, 'apr': 4, 'may': 5, 'jun': 6,
+    'jul': 7, 'aug': 8, 'sep': 9, 'oct': 10, 'nov': 11, 'dec': 12
+}
+
+
+def parse_month(month_text):
+    """Convert a PubMed <Month> value to an int, 0 if absent or unrecognized.
+
+    PubMed writes months either as three-letter abbreviations ('Jul') or as
+    numbers ('07'), and may omit the element entirely.
+    """
+    if not month_text:
+        return 0
+    month_text = month_text.strip()
+    if month_text.isdigit():
+        return int(month_text)
+    return MONTH_NUMBERS.get(month_text[:3].lower(), 0)
+
+
 def parse_pubmed_xml(xml_text):
     """Parse PubMed XML response and extract publication details."""
     publications = []
@@ -130,13 +167,18 @@ def parse_pubmed_xml(xml_text):
         journal = article.find('.//Journal/Title')
         pub['journal'] = journal.text if journal is not None else ''
 
-        # Get publication date
+        # Get publication date. Month/day are not displayed, but they order
+        # publications within a year (see sort_key in update_publications_file).
         pub_date = article.find('.//PubDate')
         if pub_date is not None:
             year = pub_date.find('Year')
             pub['year'] = year.text if year is not None else ''
+            pub['month'] = parse_month(pub_date.findtext('Month'))
+            pub['day'] = int(pub_date.findtext('Day') or 0)
         else:
             pub['year'] = ''
+            pub['month'] = 0
+            pub['day'] = 0
 
         # Get DOI
         doi = None
@@ -146,9 +188,59 @@ def parse_pubmed_xml(xml_text):
                 break
         pub['doi'] = doi
 
+        # Preprint status, and the peer-reviewed article that supersedes it.
+        # PubMed marks preprints with a 'Preprint' publication type and links
+        # them to the final article with an 'UpdateIn' reference.
+        types = {t.text for t in article.findall('.//PublicationType')}
+        pub['is_preprint'] = 'Preprint' in types
+        pub['published_version'] = next(
+            (cc.findtext('PMID') for cc in article.findall('.//CommentsCorrections')
+             if cc.get('RefType') == 'UpdateIn'),
+            None
+        )
+
         publications.append(pub)
 
     return publications
+
+
+def resolve_preprints(publications):
+    """Replace superseded preprints with their peer-reviewed versions.
+
+    A bioRxiv preprint and the article it becomes are separate PubMed records, so
+    listing both double-counts the same paper. Any preprint that names a published
+    version is dropped in favour of that version. The published record sometimes
+    omits the grant numbers the search relies on, so a version that the search did
+    not return is fetched explicitly rather than lost. Preprints with no published
+    version yet are kept and counted separately.
+    """
+    by_pmid = {pub['pmid']: pub for pub in publications}
+
+    superseded = {pub['pmid']: pub['published_version'] for pub in publications
+                  if pub['is_preprint'] and pub['published_version']}
+    if not superseded:
+        return publications
+
+    # Pull in published versions the grant search missed, so dropping the
+    # preprint never drops the paper.
+    missing = sorted(set(superseded.values()) - set(by_pmid))
+    if missing:
+        print(f"  Fetching {len(missing)} published version(s) missed by grant search: "
+              f"{', '.join(missing)}")
+        for pub in fetch_publication_details(missing):
+            by_pmid[pub['pmid']] = pub
+
+    for preprint_pmid, published_pmid in sorted(superseded.items()):
+        if published_pmid not in by_pmid:
+            # Could not retrieve the published version; keep the preprint rather
+            # than silently losing the paper.
+            print(f"  WARNING: keeping preprint {preprint_pmid}, could not fetch "
+                  f"published version {published_pmid}")
+            continue
+        del by_pmid[preprint_pmid]
+        print(f"  Preprint {preprint_pmid} superseded by {published_pmid}")
+
+    return list(by_pmid.values())
 
 
 def update_publications_file(publications):
@@ -173,6 +265,15 @@ def update_publications_file(publications):
     # Sort years in reverse order (newest first)
     sorted_years = sorted(pubs_by_year.keys(), reverse=True)
 
+    # Order publications within each year, newest first. Without this the order
+    # follows set iteration order, which Python randomizes per process, so every
+    # run reshuffled the page and produced a diff of pure churn.
+    for year_pubs in pubs_by_year.values():
+        year_pubs.sort(
+            key=lambda p: (p.get('month', 0), p.get('day', 0), int(p['pmid'] or 0)),
+            reverse=True
+        )
+
     # Read the current file to preserve the header
     if PUBLICATIONS_FILE.exists():
         content = PUBLICATIONS_FILE.read_text()
@@ -195,9 +296,13 @@ def update_publications_file(publications):
     # Build the publications list section
     current_date = datetime.now().strftime("%B %d, %Y")
     total_pubs = sum(len(pubs) for pubs in pubs_by_year.values())
+    preprint_count = sum(1 for pubs in pubs_by_year.values()
+                         for pub in pubs if pub['is_preprint'])
+    reviewed_count = total_pubs - preprint_count
+    preprint_label = 'preprint' if preprint_count == 1 else 'preprints'
 
     pubs_section = f"""
-*Last updated: {current_date} — {total_pubs} publications*
+*Last updated: {current_date} — {reviewed_count} peer-reviewed publications and {preprint_count} {preprint_label} awaiting peer review*
 
 ---
 
@@ -213,10 +318,14 @@ def update_publications_file(publications):
             pubs_section += f'  <div class="publication-title">{pub["title"]}</div>\n'
             pubs_section += f'  <div class="publication-authors">{pub["authors"]}</div>\n'
 
-            # Journal and year
+            # Journal and year. Preprints are marked inline rather than with a
+            # styled badge so the distinction survives in plain text and screen
+            # readers without needing a CSS change.
             journal_info = pub['journal']
             if pub['year']:
                 journal_info += f', {pub["year"]}'
+            if pub['is_preprint']:
+                journal_info += ' (preprint, not peer reviewed)'
             pubs_section += f'  <div class="publication-journal">{journal_info}</div>\n'
 
             # Links
@@ -273,16 +382,17 @@ def generate_publications_plot(publications):
         print("No publications for plot generation")
         return False
 
-    # Count publications per year
+    # Count peer-reviewed publications and preprints separately per year
     year_counts = {}
     for pub in publications:
         year = pub.get('year', '')
         if year:
             try:
                 year = int(year)
-                year_counts[year] = year_counts.get(year, 0) + 1
             except ValueError:
-                pass
+                continue
+            counts = year_counts.setdefault(year, {'reviewed': 0, 'preprint': 0})
+            counts['preprint' if pub['is_preprint'] else 'reviewed'] += 1
 
     if not year_counts:
         print("No year data available for plot")
@@ -292,15 +402,25 @@ def generate_publications_plot(publications):
     fig, ax = plt.subplots(figsize=(8, 4))
 
     years = sorted(year_counts.keys())
-    counts = [year_counts[y] for y in years]
+    reviewed = [year_counts[y]['reviewed'] for y in years]
+    preprints = [year_counts[y]['preprint'] for y in years]
+    counts = [r + p for r, p in zip(reviewed, preprints)]
 
-    # Use TaMADOR colors (blue theme matching the website)
-    bar_color = '#2c5282'  # Primary blue from website
+    # Two-series categorical palette, validated for colour-vision deficiency
+    # separation against a light surface. REVIEWED_COLOR is the website's
+    # primary blue nudged up in chroma so it does not read as gray.
+    REVIEWED_COLOR = '#1a5490'
+    PREPRINT_COLOR = '#d99a2b'
 
-    ax.bar(years, counts, color=bar_color, edgecolor='white', linewidth=0.5)
+    # White edges give the 2px surface gap that keeps stacked segments distinct
+    ax.bar(years, reviewed, color=REVIEWED_COLOR, edgecolor='white', linewidth=1.5,
+           label='Peer reviewed')
+    ax.bar(years, preprints, bottom=reviewed, color=PREPRINT_COLOR,
+           edgecolor='white', linewidth=1.5, label='Preprint')
     ax.set_xlabel('Year', fontsize=12, fontweight='bold')
     ax.set_ylabel('Number of Publications', fontsize=12, fontweight='bold')
     ax.set_title('TaMADOR Publications per Year', fontsize=14, fontweight='bold')
+    ax.legend(frameon=False, fontsize=10)
 
     # Set x-axis to show all years
     if len(years) > 0:
@@ -351,13 +471,18 @@ def main():
 
     # Add additional PMIDs (avoid duplicates)
     pmids_set = set(pmids)
-    for pmid in ADDITIONAL_PMIDS:
-        pmids_set.add(pmid)
+    genuinely_new = sorted(set(ADDITIONAL_PMIDS) - pmids_set)
+    pmids_set.update(ADDITIONAL_PMIDS)
 
-    pmids = list(pmids_set)
+    # Sorted, not list(set), so the fetch order is stable across runs
+    pmids = sorted(pmids_set)
 
     if ADDITIONAL_PMIDS:
-        print(f"Added {len(ADDITIONAL_PMIDS)} additional PMIDs")
+        already_found = len(ADDITIONAL_PMIDS) - len(genuinely_new)
+        print(f"Additional PMIDs: {len(genuinely_new)} added, "
+              f"{already_found} already found by grant search")
+        for pmid in genuinely_new:
+            print(f"  + {pmid}")
     print(f"Total: {len(pmids)} publications")
 
     if not pmids:
@@ -368,6 +493,15 @@ def main():
     print("Fetching publication details...")
     publications = fetch_publication_details(pmids)
     print(f"Fetched details for {len(publications)} publications")
+    print()
+
+    # Collapse preprint/published duplicates so no paper is counted twice
+    print("Resolving preprints...")
+    publications = resolve_preprints(publications)
+    remaining_preprints = sum(1 for pub in publications if pub['is_preprint'])
+    print(f"{len(publications)} distinct papers: "
+          f"{len(publications) - remaining_preprints} peer reviewed, "
+          f"{remaining_preprints} awaiting peer review")
     print()
 
     # Update publications file
