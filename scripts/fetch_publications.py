@@ -482,7 +482,9 @@ def generate_publications_plot(publications):
     PLOT_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     # Save the plot
-    plt.savefig(PLOT_OUTPUT_FILE, dpi=150, bbox_inches='tight',
+    # 200 dpi gives roughly 1600px of width, keeping the chart sharp on
+    # high-DPI displays at the 800px the page stylesheet renders it at
+    plt.savefig(PLOT_OUTPUT_FILE, dpi=200, bbox_inches='tight',
                 facecolor='white', edgecolor='none')
     plt.close()
 
