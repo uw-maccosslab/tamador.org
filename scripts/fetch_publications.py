@@ -46,6 +46,23 @@ ADDITIONAL_PMIDS = [
     '41959136',
 ]
 
+# PMIDs to keep off the page even though the grant search returns them.
+#
+# PubMed sometimes stores a whole funding statement as one free-text field, and
+# the [Grant Number] search matches any number inside it. A grant cited there is
+# not always consortium work: the citation may be mistaken, or may belong to a
+# collaborator who is not an author on the paper.
+EXCLUDED_PMIDS = {
+    # 'Scaffold-Free Functional Deconvolution Identifies Clinically Relevant
+    # Metastatic Melanoma EV Biomarkers' (Cancers 2025). A Roswell Park melanoma
+    # study with no consortium author. Its funding statement reads 'NIH grants,
+    # DK124020 (J.Q.)', stored as the single field
+    # 'NCI:P30CA016056 / NIH: DK124020, HL103411, 1R50CA211108, S10OD018048 /
+    # DoD: W81XWH1910805'. DK124020 exists only as the TaMADOR U01, so the
+    # citation looks like an error on the paper's part.
+    '40805206',
+}
+
 # Preprints superseded by a published paper that PubMed does not link.
 #
 # PubMed normally records the relationship with an UpdateIn reference, which
@@ -513,6 +530,10 @@ def main():
     genuinely_new = sorted(set(ADDITIONAL_PMIDS) - pmids_set)
     pmids_set.update(ADDITIONAL_PMIDS)
 
+    # Drop papers that match a grant number but are not consortium work
+    excluded = sorted(pmids_set & EXCLUDED_PMIDS)
+    pmids_set -= EXCLUDED_PMIDS
+
     # Sorted, not list(set), so the fetch order is stable across runs
     pmids = sorted(pmids_set)
 
@@ -522,6 +543,12 @@ def main():
               f"{already_found} already found by grant search")
         for pmid in genuinely_new:
             print(f"  + {pmid}")
+    for pmid in excluded:
+        print(f"  - {pmid} excluded (see EXCLUDED_PMIDS)")
+    for pmid in sorted(EXCLUDED_PMIDS - set(excluded)):
+        # Flag rather than ignore, so the list does not quietly rot
+        print(f"  NOTE: exclusion {pmid} is no longer needed, "
+              f"the search does not return it")
     print(f"Total: {len(pmids)} publications")
 
     if not pmids:
@@ -534,9 +561,12 @@ def main():
     print(f"Fetched details for {len(publications)} publications")
     print()
 
-    # Collapse preprint/published duplicates so no paper is counted twice
+    # Collapse preprint/published duplicates so no paper is counted twice.
+    # Filter again afterwards, since a published version pulled in to replace a
+    # preprint bypasses the search and so bypasses the exclusion above.
     print("Resolving preprints...")
-    publications = resolve_preprints(publications)
+    publications = [pub for pub in resolve_preprints(publications)
+                    if pub['pmid'] not in EXCLUDED_PMIDS]
     remaining_preprints = sum(1 for pub in publications if pub['is_preprint'])
     print(f"{len(publications)} distinct papers: "
           f"{len(publications) - remaining_preprints} peer reviewed, "

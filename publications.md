@@ -18,7 +18,7 @@ Publications from the TaMADOR consortium supported by:
 
 and 2 preprints awaiting peer review*
 
-*Last updated: August 04, 2026 — 57 peer-reviewed publications and 2 preprints awaiting peer review*
+*Last updated: August 04, 2026 — 56 peer-reviewed publications and 2 preprints awaiting peer review*
 
 ---
 
@@ -161,16 +161,6 @@ and 2 preprints awaiting peer review*
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/40739343/"><span class="visually-hidden">Diffusing protein binders to intrinsically disordered proteins: </span>PubMed</a>
     <a href="https://doi.org/10.1038/s41586-025-09248-9"><span class="visually-hidden">Diffusing protein binders to intrinsically disordered proteins: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Scaffold-Free Functional Deconvolution Identifies Clinically Relevant Metastatic Melanoma EV Biomarkers</div>
-  <div class="publication-authors">Shu SL, Benjamin-Davalos S, Wang X, Katsuta E, Fitzgerald M, Koroleva M, Allen CL, Qu F, Paragh G, Minderman H, Kalinski P, Takabe K, Ernstoff MS</div>
-  <div class="publication-journal">Cancers, 2025</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/40805206/"><span class="visually-hidden">Scaffold-Free Functional Deconvolution Identifies Clinically Relevant Metastatic Melanoma EV Biomarkers: </span>PubMed</a>
-    <a href="https://doi.org/10.3390/cancers17152509"><span class="visually-hidden">Scaffold-Free Functional Deconvolution Identifies Clinically Relevant Metastatic Melanoma EV Biomarkers: </span>DOI</a>
   </div>
 </li>
 
