@@ -434,9 +434,15 @@ def generate_publications_plot(publications):
     # Ensure y-axis starts at 0
     ax.set_ylim(0, max(counts) * 1.15 if counts else 10)
 
-    # Add value labels on top of bars
-    for year, count in zip(years, counts):
-        ax.text(year, count, str(count), ha='center', va='bottom', fontweight='bold')
+    # Value labels on top of each bar. Years that include a preprint show the
+    # split ('19 + 1', peer reviewed then preprint, matching the stacking order)
+    # because a single number over a stacked bar is ambiguous about whether it
+    # means the total or only the peer-reviewed segment.
+    for year, reviewed_count, preprint_count in zip(years, reviewed, preprints):
+        label = (f'{reviewed_count} + {preprint_count}' if preprint_count
+                 else str(reviewed_count))
+        ax.text(year, reviewed_count + preprint_count, label,
+                ha='center', va='bottom', fontweight='bold')
 
     # Adjust layout
     plt.tight_layout()
