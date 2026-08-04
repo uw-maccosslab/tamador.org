@@ -31,6 +31,13 @@ Automatically fetches and updates publications from PubMed that acknowledge TaMA
    is fetched explicitly if the grant search missed it. Preprints with no published
    version yet are kept and counted separately.
 
+   Some pairs have no link in PubMed, so they cannot be matched automatically.
+   This is easy to overlook when reviewers asked for a title change, since the
+   preprint and the paper then share neither a title nor a reference. Add those
+   to `SUPERSEDED_PREPRINTS` as `'preprint PMID': 'published PMID'`. The script
+   reports a curated entry whose preprint no longer appears in the results, so
+   the list can be pruned rather than left to rot.
+
 4. Updates `publications.md` with the latest publication list, newest first within
    each year. Preprints are marked `(preprint, not peer reviewed)`.
 

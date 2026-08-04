@@ -18,7 +18,7 @@ Publications from the TaMADOR consortium supported by:
 
 and 2 preprints awaiting peer review*
 
-*Last updated: August 04, 2026 — 57 peer-reviewed publications and 2 preprints awaiting peer review*
+*Last updated: August 04, 2026 — 57 peer-reviewed publications and 1 preprint awaiting peer review*
 
 ---
 
@@ -351,16 +351,6 @@ and 2 preprints awaiting peer review*
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/38549041/"><span class="visually-hidden">Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin: </span>PubMed</a>
     <a href="https://doi.org/10.1093/clinchem/hvae034"><span class="visually-hidden">Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome</div>
-  <div class="publication-authors">Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthelezi S, Stoychev S, Jordaan J, Merrihew G, Huang E, Parker ED, Riffle M, Hoofnagle AN, Noble WS, Poston KL, Montine TJ, MacCoss MJ</div>
-  <div class="publication-journal">bioRxiv : the preprint server for biology, 2024 (preprint, not peer reviewed)</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/38617345/"><span class="visually-hidden">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome: </span>PubMed</a>
-    <a href="https://doi.org/10.1101/2023.06.10.544439"><span class="visually-hidden">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome: </span>DOI</a>
   </div>
 </li>
 

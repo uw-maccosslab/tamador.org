@@ -40,6 +40,21 @@ ADDITIONAL_PMIDS = [
     '38109936'
 ]
 
+# Preprints superseded by a published paper that PubMed does not link.
+#
+# PubMed normally records the relationship with an UpdateIn reference, which
+# resolve_preprints() follows on its own. Some pairs have no such reference at
+# all, so the preprint and the published paper look like unrelated records. This
+# is easy to miss when reviewers asked for a title change, since the two entries
+# no longer share a title either. Map preprint PMID -> published PMID here.
+SUPERSEDED_PREPRINTS = {
+    # 'Mag-Net: Rapid enrichment of membrane-bound particles enables high
+    # coverage quantitative analysis of the plasma proteome' (bioRxiv 2024)
+    # was published as 'Enrichment of extracellular vesicles using Mag-Net for
+    # the analysis of the plasma proteome' (Nat Commun 2025) after retitling.
+    '38617345': '40595564',
+}
+
 
 def grant_core_number(grant):
     """Extract the core grant number (e.g. 'DK137097' from 'U01 DK137097').
@@ -218,6 +233,16 @@ def resolve_preprints(publications):
 
     superseded = {pub['pmid']: pub['published_version'] for pub in publications
                   if pub['is_preprint'] and pub['published_version']}
+
+    # Curated pairs PubMed does not link, applied on top of the automatic ones
+    for preprint_pmid, published_pmid in SUPERSEDED_PREPRINTS.items():
+        if preprint_pmid in by_pmid:
+            superseded[preprint_pmid] = published_pmid
+        else:
+            # Flag rather than ignore, so the curated list does not quietly rot
+            print(f"  NOTE: curated pair {preprint_pmid} -> {published_pmid} is no "
+                  f"longer needed, that preprint is not in the results")
+
     if not superseded:
         return publications
 
