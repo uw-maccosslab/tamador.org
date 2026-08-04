@@ -18,7 +18,7 @@ Publications from the TaMADOR consortium supported by:
 
 and 2 preprints awaiting peer review*
 
-*Last updated: August 04, 2026 — 57 peer-reviewed publications and 1 preprint awaiting peer review*
+*Last updated: August 04, 2026 — 57 peer-reviewed publications and 2 preprints awaiting peer review*
 
 ---
 
@@ -41,6 +41,16 @@ and 2 preprints awaiting peer review*
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/42007652/"><span class="visually-hidden">A Targeted LC-MS/MS Assay of a Health Surveillance Panel and Its Application to Chronic Kidney Disease: </span>PubMed</a>
     <a href="https://doi.org/10.1021/acs.jproteome.5c00817"><span class="visually-hidden">A Targeted LC-MS/MS Assay of a Health Surveillance Panel and Its Application to Chronic Kidney Disease: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies</div>
+  <div class="publication-authors">Sniezek C, Plubell D, Vlajic K, Hoofnagle A, Wu CC, Buckner JH, Schweppe D, Speake C, MacCoss MJ</div>
+  <div class="publication-journal">bioRxiv : the preprint server for biology, 2026 (preprint, not peer reviewed)</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/41959136/"><span class="visually-hidden">Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies: </span>PubMed</a>
+    <a href="https://doi.org/10.64898/2026.03.27.712461"><span class="visually-hidden">Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies: </span>DOI</a>
   </div>
 </li>
 

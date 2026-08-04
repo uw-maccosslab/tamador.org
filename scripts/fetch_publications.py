@@ -32,12 +32,18 @@ GRANT_NUMBERS = [
     'U01 DK124019'
 ]
 
-# Additional PMIDs to include (publications that may not have grant numbers indexed)
+# Additional PMIDs to include. PubMed indexes the grants a record actually
+# declares, so a paper that credits a TaMADOR grant in its own text is still
+# unreachable by grant search when that grant is missing from the PubMed record.
 ADDITIONAL_PMIDS = [
     '40802520',
     '40093566',
     '40739343',
-    '38109936'
+    '38109936',
+    # 'Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade
+    # between two immunotherapies' (bioRxiv 2026). The preprint credits
+    # U01 DK137097, but PubMed indexes only R35 GM150919 for it.
+    '41959136',
 ]
 
 # Preprints superseded by a published paper that PubMed does not link.

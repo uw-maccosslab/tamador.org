@@ -18,8 +18,8 @@ deactivate
 The `fetch_publications.py` script:
 
 1. **Queries PubMed** for all papers crediting TaMADOR grants
-2. **Fetches 58 distinct papers** (as of Aug 2026) across 9 years (2018-2026):
-   57 peer reviewed plus 1 preprint not yet peer reviewed
+2. **Fetches 59 distinct papers** (as of Aug 2026) across 9 years (2018-2026):
+   57 peer reviewed plus 2 preprints not yet peer reviewed
 3. **Collapses preprint duplicates**, keeping the peer-reviewed version of any
    paper that has one. Pairs PubMed does not link are listed in
    `SUPERSEDED_PREPRINTS`
