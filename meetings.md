@@ -20,17 +20,17 @@ The TaMADOR consortium holds regular meetings and symposia to share progress, di
   <p><a href="https://www.msacl.org/program/index.php">Conference Program</a></p>
 </div>
 
+---
+
+## Past Meetings
+
 <div class="meeting-item">
   <span class="meeting-date">May 14, 2026</span>
   <h3>2026 TaMADOR Spring Symposium</h3>
   <p class="meeting-location">UW Medicine at South Lake Union, Brotman Auditorium (D Bldg), Seattle, WA</p>
   <p>Targeted Mass Spectrometry Assays for Diabetes and Obesity Research symposium featuring presentations on proteomics, biomarker validation, proinsulin assays, and clinical applications in type 1 diabetes.</p>
-  <p><a href="/spring-2026-symposium/">View Agenda</a> | <a href="https://diabetesmetabseminars.com/">Register</a></p>
+  <p><a href="/spring-2026-symposium/">View Agenda<span class="visually-hidden">&#8220;for Targeted Mass Spectrometry Assays for Diabetes and Obesity Research symposium featuring presentations on proteomics, biomarker validation, proinsulin assays, and clinical applications in type 1 diabetes&#8221;</span></a></p>
 </div>
-
----
-
-## Past Meetings
 
 <div class="meeting-item">
   <span class="meeting-date">March 4, 2025</span>
