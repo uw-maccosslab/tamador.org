@@ -20,9 +20,29 @@ Automatically fetches and updates publications from PubMed that acknowledge TaMA
    - PMID: 40739343
    - PMID: 38109936
 
-3. Updates `publications.md` with the latest publication list
+   The query searches the bare grant number (`DK137097[Grant Number]`) rather than
+   the full `U01 DK137097` string. PubMed matches this field literally, and records
+   store the grant several ways (`U01 DK137097`, `U01DK137097`, or inside a
+   free-text blob), so the full-string form silently misses papers.
 
-4. Generates a bar chart showing publications per year (`assets/images/publication-metrics.png`)
+3. Collapses preprint/published duplicates. A bioRxiv preprint and the article it
+   becomes are separate PubMed records; listing both double-counts the paper. Any
+   preprint PubMed links to a published version is replaced by that version, which
+   is fetched explicitly if the grant search missed it. Preprints with no published
+   version yet are kept and counted separately.
+
+   Some pairs have no link in PubMed, so they cannot be matched automatically.
+   This is easy to overlook when reviewers asked for a title change, since the
+   preprint and the paper then share neither a title nor a reference. Add those
+   to `SUPERSEDED_PREPRINTS` as `'preprint PMID': 'published PMID'`. The script
+   reports a curated entry whose preprint no longer appears in the results, so
+   the list can be pruned rather than left to rot.
+
+4. Updates `publications.md` with the latest publication list, newest first within
+   each year. Preprints are marked `(preprint, not peer reviewed)`.
+
+5. Generates a stacked bar chart of peer-reviewed publications and preprints per
+   year (`assets/images/publication-metrics.png`)
 
 ### Requirements:
 

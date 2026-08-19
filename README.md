@@ -110,8 +110,9 @@ deactivate
 
 **What it does:**
 - Queries PubMed for papers crediting grants: U01 DK137097, U01 DK137113, U01 DK124020, U01 DK124019
+- Replaces preprints with their peer-reviewed versions so no paper is counted twice
 - Updates `publications.md` with the complete publication list
-- Generates `assets/images/publication-metrics.png` chart showing publications per year
+- Generates `assets/images/publication-metrics.png`, a stacked chart of peer-reviewed publications and preprints per year
 
 **Setup:**
 ```bash
