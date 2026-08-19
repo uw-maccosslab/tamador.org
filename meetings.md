@@ -13,6 +13,14 @@ The TaMADOR consortium holds regular meetings and symposia to share progress, di
 ## Upcoming Meetings
 
 <div class="meeting-item">
+  <span class="meeting-date">October 6, 2026</span>
+  <h3>MSACL 2026 Academic Workshop</h3>
+  <p class="meeting-location">MSACL 2026, Montréal, Quebec, Canada</p>
+  <p>Quantification of Protein and Peptide Biomarkers in Diabetes Clinical Research: An Update. Academic Workshop at MSACL 2026 on Tuesday at 14:15, presenting an update from the TaMADOR consortium on targeted mass spectrometry assays for protein and peptide biomarkers in diabetes clinical research.</p>
+  <p><a href="https://www.msacl.org/program/index.php">Conference Program</a></p>
+</div>
+
+<div class="meeting-item">
   <span class="meeting-date">May 14, 2026</span>
   <h3>2026 TaMADOR Spring Symposium</h3>
   <p class="meeting-location">UW Medicine at South Lake Union, Brotman Auditorium (D Bldg), Seattle, WA</p>
