@@ -16,11 +16,31 @@ Publications from the TaMADOR consortium supported by:
 
 ![Publications per Year]({{ '/assets/images/publication-metrics.png' | relative_url }})
 
-*Last updated: August 19, 2026 — 55 peer-reviewed publications and 2 preprints awaiting peer review*
+*Last updated: September 11, 2026 — 57 peer-reviewed publications and 2 preprints awaiting peer review*
 
 ---
 
 <ul class="publication-list">
+
+<li class="publication-item">
+  <div class="publication-title">Hex-MASP for mapping the whole-tissue spatial proteome and the intrabrain distribution of monoclonal antibodies</div>
+  <div class="publication-authors">Huo S, Ma M, Qian S, Zhang M, Pu J, Zhu X, Rasam S, Barone T, Plunkett R, Zhou C, Qu J</div>
+  <div class="publication-journal">Proceedings of the National Academy of Sciences of the United States of America, 2026</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/42691083/"><span class="visually-hidden">Hex-MASP for mapping the whole-tissue spatial proteome and the intrabrain distribution of monoclonal antibodies: </span>PubMed</a>
+    <a href="https://doi.org/10.1073/pnas.2532946123"><span class="visually-hidden">Hex-MASP for mapping the whole-tissue spatial proteome and the intrabrain distribution of monoclonal antibodies: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry</div>
+  <div class="publication-authors">Shijo SK, Goonatilleke E, Barahona-Carrillo L, Forrest K, Becker JO, MacCoss MJ, Speake C, Lee CS, Johnson L, Huynh HH, Hoofnagle AN</div>
+  <div class="publication-journal">Clinical chemistry, 2026</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/42626817/"><span class="visually-hidden">Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry: </span>PubMed</a>
+    <a href="https://doi.org/10.1093/clinchem/hvag105"><span class="visually-hidden">Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry: </span>DOI</a>
+  </div>
+</li>
 
 <li class="publication-item">
   <div class="publication-title">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research</div>
