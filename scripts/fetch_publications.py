@@ -81,6 +81,10 @@ SUPERSEDED_PREPRINTS = {
     # was published as 'Enrichment of extracellular vesicles using Mag-Net for
     # the analysis of the plasma proteome' (Nat Commun 2025) after retitling.
     '38617345': '40595564',
+    # 'Prioritizing peptides for targeted mass spectrometry experiments using
+    # deep learning' (bioRxiv 2026) was published under the same title in
+    # J Proteome Res (2026), but PubMed records no UpdateIn between them.
+    '42244555': '42918136',
 }
 
 
@@ -329,7 +333,7 @@ def update_publications_file(publications):
 
     # Read the current file to preserve the header
     if PUBLICATIONS_FILE.exists():
-        content = PUBLICATIONS_FILE.read_text()
+        content = PUBLICATIONS_FILE.read_text(encoding='utf-8')
         # Find where the publication list starts (after the "---" separator)
         if '\n---\n' in content:
             header_parts = content.split('\n---\n', 2)
@@ -398,7 +402,7 @@ def update_publications_file(publications):
 
     # Combine and write
     new_content = header_content + pubs_section
-    PUBLICATIONS_FILE.write_text(new_content)
+    PUBLICATIONS_FILE.write_text(new_content, encoding='utf-8')
     print(f"Updated {PUBLICATIONS_FILE} with {total_pubs} publications across {len(sorted_years)} years")
     return True
 

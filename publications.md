@@ -16,11 +16,21 @@ Publications from the TaMADOR consortium supported by:
 
 ![Publications per Year]({{ '/assets/images/publication-metrics.png' | relative_url }})
 
-*Last updated: September 11, 2026 — 57 peer-reviewed publications and 2 preprints awaiting peer review*
+*Last updated: October 25, 2026 — 57 peer-reviewed publications and 4 preprints awaiting peer review*
 
 ---
 
 <ul class="publication-list">
+
+<li class="publication-item">
+  <div class="publication-title">Prioritizing Peptides for Targeted Mass Spectrometry Experiments Using Deep Learning</div>
+  <div class="publication-authors">Sonthalia S, Wen B, Dasgupta P, Hsu C, MacCoss MJ, Noble WS</div>
+  <div class="publication-journal">Journal of proteome research, 2026</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/42918136/"><span class="visually-hidden">Prioritizing Peptides for Targeted Mass Spectrometry Experiments Using Deep Learning: </span>PubMed</a>
+    <a href="https://doi.org/10.1021/acs.jproteome.6c00457"><span class="visually-hidden">Prioritizing Peptides for Targeted Mass Spectrometry Experiments Using Deep Learning: </span>DOI</a>
+  </div>
+</li>
 
 <li class="publication-item">
   <div class="publication-title">Hex-MASP for mapping the whole-tissue spatial proteome and the intrabrain distribution of monoclonal antibodies</div>
@@ -49,6 +59,26 @@ Publications from the TaMADOR consortium supported by:
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/42400596/"><span class="visually-hidden">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research: </span>PubMed</a>
     <a href="https://doi.org/10.1093/clinchem/hvag078"><span class="visually-hidden">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Revisiting resonance-excitation collision-induced dissociation for data-independent acquisition</div>
+  <div class="publication-authors">Hsu C, Heil LR, Wen B, McAlister G, Merrihew G, Remes PM, Plubell DL, Melani R, Zabrouskov V, MacCoss MJ</div>
+  <div class="publication-journal">bioRxiv : the preprint server for biology, 2026 (preprint, not peer reviewed)</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/42282639/"><span class="visually-hidden">Revisiting resonance-excitation collision-induced dissociation for data-independent acquisition: </span>PubMed</a>
+    <a href="https://doi.org/10.64898/2026.05.31.729078"><span class="visually-hidden">Revisiting resonance-excitation collision-induced dissociation for data-independent acquisition: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">A multiplexed targeted mass spectrometric assay for quantifying obesity- associated biomarkers in human plasma</div>
+  <div class="publication-authors">Lin TT, Dakup P, Schepmoes AA, Fillmore TL, Swensen AC, Kelly SS, Zhang T, Pu J, Jacobs JM, DeLany JP, Goodpaster BH, Shi T, Qu J, Qian WJ</div>
+  <div class="publication-journal">Research square, 2026 (preprint, not peer reviewed)</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/42239769/"><span class="visually-hidden">A multiplexed targeted mass spectrometric assay for quantifying obesity- associated biomarkers in human plasma: </span>PubMed</a>
+    <a href="https://doi.org/10.21203/rs.3.rs-9588456/v1"><span class="visually-hidden">A multiplexed targeted mass spectrometric assay for quantifying obesity- associated biomarkers in human plasma: </span>DOI</a>
   </div>
 </li>
 
@@ -379,16 +409,6 @@ Publications from the TaMADOR consortium supported by:
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/38109936/"><span class="visually-hidden">De novo design of high-affinity binders of bioactive helical peptides: </span>PubMed</a>
     <a href="https://doi.org/10.1038/s41586-023-06953-1"><span class="visually-hidden">De novo design of high-affinity binders of bioactive helical peptides: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway</div>
-  <div class="publication-authors">Rasam S, Lin Q, Shen S, Straubinger RM, Qu J</div>
-  <div class="publication-journal">Journal of proteome research, 2023</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/37906173/"><span class="visually-hidden">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway: </span>PubMed</a>
-    <a href="https://doi.org/10.1021/acs.jproteome.3c00463"><span class="visually-hidden">Highly Reproducible Quantitative Proteomics Analysis of Pancreatic Cancer Cells Reveals Proteome-Level Effects of a Novel Combination Drug Therapy That Induces Cancer Cell Death via Metabolic Remodeling and Activation of the Extrinsic Apoptosis Pathway: </span>DOI</a>
   </div>
 </li>
 
