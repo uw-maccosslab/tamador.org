@@ -16,11 +16,31 @@ Publications from the TaMADOR consortium supported by:
 
 ![Publications per Year]({{ '/assets/images/publication-metrics.png' | relative_url }})
 
-*Last updated: October 25, 2026 — 57 peer-reviewed publications and 4 preprints awaiting peer review*
+*Last updated: November 07, 2026 — 57 peer-reviewed publications and 5 preprints awaiting peer review*
 
 ---
 
 <ul class="publication-list">
+
+<li class="publication-item">
+  <div class="publication-title">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research</div>
+  <div class="publication-authors">Moradian A, Becker JO, Nierves LA, Lin TT, Sechi S, MacCoss MJ, Qian WJ, van Eyk JE, Hoofnagle AN</div>
+  <div class="publication-journal">Clinical chemistry, 2026</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/42400596/"><span class="visually-hidden">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research: </span>PubMed</a>
+    <a href="https://doi.org/10.1093/clinchem/hvag078"><span class="visually-hidden">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research: </span>DOI</a>
+  </div>
+</li>
+
+<li class="publication-item">
+  <div class="publication-title">Scalable Hydrogel Nanoparticle Enrichment for Enhanced Mass Spectrometry-based Proteomic Analysis of Plasma or Volumetric Dried Blood Samples</div>
+  <div class="publication-authors">Campbell A, Becker L, Kreimer S, Gonzales M, Raedschelders K, Van Eyk J</div>
+  <div class="publication-journal">Research square, 2026 (preprint, not peer reviewed)</div>
+  <div class="publication-links">
+    <a href="https://pubmed.ncbi.nlm.nih.gov/42926906/"><span class="visually-hidden">Scalable Hydrogel Nanoparticle Enrichment for Enhanced Mass Spectrometry-based Proteomic Analysis of Plasma or Volumetric Dried Blood Samples: </span>PubMed</a>
+    <a href="https://doi.org/10.21203/rs.3.rs-11053241/v1"><span class="visually-hidden">Scalable Hydrogel Nanoparticle Enrichment for Enhanced Mass Spectrometry-based Proteomic Analysis of Plasma or Volumetric Dried Blood Samples: </span>DOI</a>
+  </div>
+</li>
 
 <li class="publication-item">
   <div class="publication-title">Prioritizing Peptides for Targeted Mass Spectrometry Experiments Using Deep Learning</div>
@@ -49,16 +69,6 @@ Publications from the TaMADOR consortium supported by:
   <div class="publication-links">
     <a href="https://pubmed.ncbi.nlm.nih.gov/42626817/"><span class="visually-hidden">Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry: </span>PubMed</a>
     <a href="https://doi.org/10.1093/clinchem/hvag105"><span class="visually-hidden">Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry: </span>DOI</a>
-  </div>
-</li>
-
-<li class="publication-item">
-  <div class="publication-title">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research</div>
-  <div class="publication-authors">Moradian A, Becker JO, Nierves LA, Lin TT, Sechi S, MacCoss MJ, Qian WJ, van Eyk JE, Hoofnagle AN</div>
-  <div class="publication-journal">Clinical chemistry, 2026</div>
-  <div class="publication-links">
-    <a href="https://pubmed.ncbi.nlm.nih.gov/42400596/"><span class="visually-hidden">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research: </span>PubMed</a>
-    <a href="https://doi.org/10.1093/clinchem/hvag078"><span class="visually-hidden">Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research: </span>DOI</a>
   </div>
 </li>
 
